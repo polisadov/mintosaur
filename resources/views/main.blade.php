@@ -2256,7 +2256,7 @@
                         <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
                     </a>
                 @endif
-                
+
             </div>
         </div>
     </footer>
