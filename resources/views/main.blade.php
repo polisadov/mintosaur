@@ -36,12 +36,13 @@
                     <div class="nav__info">
                         <ul class="menu-list nav__menu-list">
                             <li class="menu-list__item">
-                                <a href="#_1" class="menu-list__link toggle-nav-menu-trigger">@lang('Mintosaurs type')</a>
+                                <a href="#_1"
+                                   class="menu-list__link toggle-nav-menu-trigger">@lang('Mintosaurs type')</a>
                             </li>
                             <li class="menu-list__item">
-                                <a href="#_2" class="menu-list__link toggle-nav-menu-trigger">@lang('Project leader')</a>
+                                <a href="#_2"
+                                   class="menu-list__link toggle-nav-menu-trigger">@lang('Project leader')</a>
                             </li>
-
                         </ul>
                         <p class="nav__heading">@lang('Mintosaurs — legendary TON NFT')</p>
                         <p class="nav__text">@lang('Rare and almost priceless creatures from the red list of TON blockchain.')</p>
@@ -50,21 +51,21 @@
                     <div class="nav__btns">
                         <div class="nav__links">
                             @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                                <a href="/ru" class="i-link">
+                                <a href="/ru?pass=VERSTAK" class="i-link">
                                     <img src="{{asset('media/images/ru-flag.png')}}" alt="icon" width="20" height="20"
                                          class="i-link__icon">
-                                    <span class="i-link__text">Ru Version</span>
+                                    <span class="i-link__text">Rus Version</span>
                                 </a>
                             @else
-                                <a href="/" class="i-link">
-                                    <img src="{{asset('media/images/ru-flag.png')}}" alt="icon" width="20" height="20"
+                                <a href="/?pass=VERSTAK" class="i-link">
+                                    <img src="{{asset('media/images/eng-flag.png')}}" alt="icon" width="20" height="20"
                                          class="i-link__icon">
-                                    <span class="i-link__text">Ru Version</span>
+                                    <span class="i-link__text">Eng Version</span>
                                 </a>
                             @endif
 
                         </div>
-                        <a href="#" class="btn btn--s">
+                        <a href="#" class="btn btn--s" target="_blank">
                             <span class="btn-text btn-text--s">@lang('Buy')</span>
                         </a>
                     </div>
@@ -79,17 +80,13 @@
         <div class="main-scr">
             <div class="container">
                 <div class="main-scr__inner">
-                    <p class="heading main-scr__heading" data-aos="fade-right">Минтозавры - кто они?</p>
+                    <p class="heading main-scr__heading" data-aos="fade-right">@lang("Mintosaurs — who are they?")</p>
                     <p class="body-text main-scr__body-text" data-aos="fade-right" data-aos-delay="100">
-                        Представьте себе безумный симбиоз фильма Парк Юрского периода и телесериала Улицы разбитых
-                        фонарей?
+                        @lang("Imagine the crazy symbiosis of Jurassic Park and Arnold Schwarzenegger's Red Heat?")
                         <br><br>
-                        И это еще не все. Минтозавры пытаются соединить динозавров с колоритом Советского Союза.
-                        Птеродактели-чекисты? Лейтенанты МВД-велоцерапторы? А может это будет Тирекс-маршал Советского
-                        Союза во
-                        время отдыха на коммунистической Кубе?
+                        @lang("And that's not all. Mintosaurs are trying to connect dinosaurs with the symbolism of the Soviet Union. Stalin’s security officers pterodactels? Soviet Police-velociraptors? Or maybe it will be the Tirex Marshal of the Soviet Union during a vacation in communist Cuba?")
                         <br><br>
-                        В мире минтозавров все это становится возможным!
+                        @lang("In the world of mintosaurs, all this becomes possible!")
                     </p>
                     <div class="main-scr__img-box">
                         <img src="media/images/main-scr__img.png" alt="img" width="467" height="501"
@@ -101,7 +98,7 @@
                 <div class="container">
                     <div class="info-tape__inner">
                         <a href="#red-book" class="btn info-tape__btn">
-                            <span class="btn-text">Посмотреть красную книгу</span>
+                            <span class="btn-text">@lang("View Red List")</span>
                         </a>
                     </div>
                 </div>
@@ -163,49 +160,46 @@
                 <div class="variations__inner">
                     <img src="media/images/logo.svg" alt="logo" width="207" height="121" class="variations__logo"
                          data-aos="fade-up">
-                    <p class="heading variations__heading" data-aos="fade-up">Красная книга</p>
-                    <p class="body-text variations__body-text" data-aos="fade-up">Минтозавры обладают
-                        сложной иерархией основанной на их расе,
-                        месте службы, звании. Кроме того они могут находиться как на службе, так и не при исполнении. А
-                        кто-то из
-                        них даже смог перебраться из двухмерного измерения в трехмерное.</p>
+                    <p class="heading variations__heading" data-aos="fade-up">@lang("Red list")</p>
+                    <p class="body-text variations__body-text"
+                       data-aos="fade-up">@lang("Mintosaurs have a complex hierarchy based on their race, duty station, and rank. In addition, they can be both on duty and on vacation. And some of them even to move from 2D to 3D.")</p>
                     <div class="variations__var-nav var-nav" data-aos="fade-up">
                         <div class="var-nav__inner var-nav__inner--first">
                             <div class="var-nav__head">
-                                <button class="var-nav__btn var-nav__btn--active btn-text">Велоцерапторы (9 440)
+                                <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (9 440)
                                 </button>
-                                <button class="var-nav__btn btn-text">Тиранозавры (149)</button>
-                                <button class="var-nav__btn btn-text">Птеродактили (400)</button>
+                                <button class="var-nav__btn btn-text">@lang("Tyrannosauruses") (149)</button>
+                                <button class="var-nav__btn btn-text">@lang("Pterodactyls") (400)</button>
                             </div>
                             <div class="var-nav__body">
                                 <div class="var-nav__swiper swiper">
                                     <div class="var-nav__swiper-wrapper swiper-wrapper">
                                         <div class="var-nav__swiper-slide swiper-slide">
                                             <button class="category-btn category-btn--active var-nav__category-btn">
-                                                <span class="category-btn__text">Не при исполнении (4 625)</span>
+                                                <span class="category-btn__text">@lang("On vacation") (4 625)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">На службе (4 625)</span>
+                                                <span class="category-btn__text">@lang("In service") (4 625)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">Смешанные (190)</span>
+                                                <span class="category-btn__text">@lang("Mixed") (190)</span>
                                             </button>
                                         </div>
                                         <div class="var-nav__swiper-slide swiper-slide">
                                             <button class="category-btn category-btn--active var-nav__category-btn">
-                                                <span class="category-btn__text">На службе (64)</span>
+                                                <span class="category-btn__text">@lang("In service") (64)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">Смешанные (64)</span>
+                                                <span class="category-btn__text">@lang("Mixed") (64)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">3D элитные (21)</span>
+                                                <span class="category-btn__text">@lang("Elite 3D") (21)</span>
                                             </button>
                                         </div>
                                         <div
                                             class="var-nav__swiper-slide var-nav__swiper-slide--single-item swiper-slide">
                                             <button class="category-btn category-btn--active var-nav__category-btn">
-                                                <span class="category-btn__text">Чекисты всегда на службе</span>
+                                                <span class="category-btn__text">@lang('Stalin’s security officers always in service')</span>
                                             </button>
                                         </div>
                                     </div>
@@ -227,7 +221,7 @@
                                                                 <img src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОН</p>
+                                                                <p class="title title--s sm-info-card__title">@lang("BACKGROUND")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors.svg" alt="img"
@@ -263,7 +257,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang("COLORING")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/clr-palette--y-g-lg-b.svg"
@@ -289,7 +283,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang("MOUTH")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
 
@@ -299,7 +293,8 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')
+                                                                    </p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -307,7 +302,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        распахнутая</p>
+                                                                        @lang('unfolded')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -315,7 +310,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -326,7 +321,7 @@
                                                                 <img src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЛАЗЕР</p>
+                                                                <p class="title title--s sm-info-card__title">@lang("Laser")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -334,7 +329,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
@@ -342,7 +337,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        синий</p>
+                                                                        @lang('blue')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
@@ -350,7 +345,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
@@ -358,7 +353,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -373,7 +368,8 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ПРЕДМЕТ</p>
+                                                                    @lang("OBJECT")
+                                                                </p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--items-margin-bottom-50">
@@ -382,7 +378,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">15%</div>
@@ -390,14 +386,14 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        фотоаппарат</p>
+                                                                        @lang('photo camera')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">15%</div>
                                                                     <img src="media/images/icons/beer.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">балтика&nbsp;3</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;3')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -405,7 +401,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        коктейль</p>
+                                                                        @lang('cocktail')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -413,7 +409,7 @@
                                                                     <img src="media/images/icons/baltika-9.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">балтика&nbsp;9</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;9')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -425,7 +421,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    РУБАШКА</p>
+                                                                    @lang('T-SHIRT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -434,7 +430,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        голубая</p>
+                                                                        @lang('cyan')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -442,7 +438,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        зеленая</p>
+                                                                        @lang('green')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -450,7 +446,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        розовая</p>
+                                                                        @lang('pink')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -461,7 +457,7 @@
                                                                 <img src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗРАЧОК</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -470,7 +466,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -478,7 +474,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -489,7 +485,7 @@
                                                                 <img src="media/images/icons/pattern.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">УЗОР</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PATTERN')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -498,7 +494,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        цветы</p>
+                                                                        @lang('flowers')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -506,7 +502,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        листья</p>
+                                                                        @lang('leaves')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -517,7 +513,7 @@
                                                                 <img src="media/images/icons/hat.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ШАПКА</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('HAT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -526,7 +522,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        фрукты</p>
+                                                                        @lang('fruits')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">40%</div>
@@ -534,7 +530,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        сафари</p>
+                                                                        @lang('safari')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -551,7 +547,7 @@
                                                                 <img src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОН</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors.svg" alt="img"
@@ -587,7 +583,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/clr-palette--y-g-lg-b.svg"
@@ -613,7 +609,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
 
@@ -623,7 +619,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -631,7 +627,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        распахнутая</p>
+                                                                        @lang('unfolded')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -639,7 +635,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -650,7 +646,7 @@
                                                                 <img src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЛАЗЕР</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('Laser')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -658,7 +654,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
@@ -674,7 +670,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
@@ -682,7 +678,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -698,7 +694,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ПРЕДМЕТ</p>
+                                                                    @lang('OBJECT')</p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
@@ -707,7 +703,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">15%</div>
@@ -715,7 +711,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        пистолет Макарова</p>
+                                                                        @lang('Makarov pistol')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
@@ -723,7 +719,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        жезл</p>
+                                                                        @lang('traffic wand')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -732,7 +728,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        рация</p>
+                                                                        @lang('radio')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -741,7 +737,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        дубинка</p>
+                                                                        @lang('baton')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -750,7 +746,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        наручники</p>
+                                                                        @lang('handcuffs')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -759,7 +755,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        лупа</p>
+                                                                        @lang('magnifier')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -770,7 +766,7 @@
                                                                 <img src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗВАНИЕ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('RANK')</p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--items-margin-bottom-50">
@@ -780,7 +776,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        лейтенант</p>
+                                                                        @lang('Lieutenant')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -788,7 +784,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        капитан</p>
+                                                                        @lang('Captain')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -796,7 +792,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        майор</p>
+                                                                        @lang('Major')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">6%</div>
@@ -804,7 +800,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        подполковник</p>
+                                                                        @lang('Lieutenant Colonel')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -813,7 +809,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        полковник</p>
+                                                                        @lang('Colonel')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -827,7 +823,7 @@
                                                                 <img src="media/images/icons/uniform.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОРМА</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('UNIFORM')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -836,7 +832,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        базовая</p>
+                                                                        @lang('basic')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">100%</div>
@@ -844,7 +840,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        фуражка</p>
+                                                                        @lang('cap')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -855,7 +851,7 @@
                                                                 <img src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗРАЧОК</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -864,7 +860,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -872,7 +868,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -889,7 +885,7 @@
                                                                 <img src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОН</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors.svg" alt="img"
@@ -925,7 +921,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/clr-palette--y-g-lg-b.svg"
@@ -951,7 +947,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
 
@@ -961,7 +957,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -969,7 +965,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        распахнутая</p>
+                                                                        @lang('unfolded')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -977,7 +973,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -988,7 +984,7 @@
                                                                 <img src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЛАЗЕР</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('Laser')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -996,7 +992,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
@@ -1004,7 +1000,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        синий</p>
+                                                                        @lang('blue')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
@@ -1012,7 +1008,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
@@ -1020,7 +1016,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1036,7 +1032,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    РУБАШКА</p>
+                                                                    @lang('T-SHIRT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1045,7 +1041,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        голубая</p>
+                                                                        @lang('cyan')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1053,7 +1049,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        зеленая</p>
+                                                                        @lang('green')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1061,7 +1057,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        розовая</p>
+                                                                        @lang('pink')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1073,7 +1069,8 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ПРЕДМЕТ</p>
+                                                                    @lang('OBJECT')
+                                                                </p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
@@ -1082,7 +1079,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1090,7 +1087,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        пистолет Макарова</p>
+                                                                        @lang('Makarov pistol')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1098,7 +1095,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        жезл</p>
+                                                                        @lang('traffic wand')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1106,14 +1103,14 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        фотоаппарат</p>
+                                                                        @lang('photo camera')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/beer.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">балтика&nbsp;3</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;3')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1121,7 +1118,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        рация</p>
+                                                                        @lang('radio')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -1130,7 +1127,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        дубинка</p>
+                                                                        @lang('baton')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -1139,7 +1136,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        наручники</p>
+                                                                        @lang('handcuffs')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -1148,7 +1145,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        лупа</p>
+                                                                        @lang('magnifier')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -1156,7 +1153,7 @@
                                                                     <img src="media/images/icons/baltika-9.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">балтика&nbsp;9</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;9')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1170,8 +1167,7 @@
                                                                 <img src="media/images/icons/pattern.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">УЗОР &
-                                                                    ШАПКА</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PATTERN & HAT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1180,7 +1176,8 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        фуражка</p>
+                                                                        @lang('cap')
+                                                                    </p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
@@ -1188,7 +1185,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        цветы</p>
+                                                                        @lang('fruits')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1196,7 +1193,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        листья</p>
+                                                                        @lang('leaves')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1207,7 +1204,7 @@
                                                                 <img src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗРАЧОК</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1216,7 +1213,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1224,7 +1221,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1248,7 +1245,7 @@
                                                                 <img src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОН</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors.svg" alt="img"
@@ -1284,7 +1281,8 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang('COLORING')
+                                                                </p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colros--two.svg" alt="img"
@@ -1306,7 +1304,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1315,7 +1313,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1323,7 +1321,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1331,7 +1329,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        Лазер</p>
+                                                                        @lang('Laser')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1342,7 +1340,7 @@
                                                                 <img src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗРАЧОК</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1351,7 +1349,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1359,7 +1357,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1373,7 +1371,7 @@
                                                                 <img src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗВАНИЕ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('RANK')</p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins">
@@ -1383,7 +1381,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        генерал</p>
+                                                                        @lang('General')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">21,9%</div>
@@ -1391,7 +1389,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        маршал</p>
+                                                                        @lang('Marshal')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">0,01%</div>
@@ -1399,7 +1397,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        Генералисимус</p>
+                                                                        @lang('Generalisimus')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1411,7 +1409,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ПРЕДМЕТ</p>
+                                                                    @lang('OBJECT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1419,7 +1417,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1427,7 +1425,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        пистолет Макарова</p>
+                                                                        @lang('Makarov pistol')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1435,7 +1433,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        взятка</p>
+                                                                        @lang('bribe')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1453,7 +1451,7 @@
                                                                 <img src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОН</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors.svg" alt="img"
@@ -1489,7 +1487,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colros--two.svg" alt="img"
@@ -1511,7 +1509,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1520,7 +1518,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1528,7 +1526,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1536,7 +1534,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        Лазер</p>
+                                                                        @lang('Laser')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1547,7 +1545,7 @@
                                                                 <img src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗРАЧОК</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1556,7 +1554,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1564,7 +1562,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1576,7 +1574,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ПРЕДМЕТ</p>
+                                                                    @lang('OBJECT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1584,7 +1582,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1592,7 +1590,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        мартини</p>
+                                                                        @lang('martinis')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1606,7 +1604,7 @@
                                                                 <img src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗВАНИЕ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('RANK')</p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins">
@@ -1616,7 +1614,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        генерал</p>
+                                                                        @lang('General')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">21,9%</div>
@@ -1624,7 +1622,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        маршал</p>
+                                                                        @lang('Marshal')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1636,7 +1634,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    РУБАШКА</p>
+                                                                    @lang('T-SHIRT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1645,7 +1643,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        голубая</p>
+                                                                        @lang('cyan')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1653,7 +1651,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        зеленая</p>
+                                                                        @lang('green')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1661,7 +1659,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        розовая</p>
+                                                                        @lang('pink')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1672,7 +1670,7 @@
                                                                 <img src="media/images/icons/pattern.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">УЗОР</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PATTERN')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1681,7 +1679,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        цветы</p>
+                                                                        @lang('flowers')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1689,7 +1687,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        листья</p>
+                                                                        @lang('leaves')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1707,7 +1705,7 @@
                                                                 <img src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОРМА</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('UNIFORM')</p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
@@ -1717,7 +1715,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        маршал</p>
+                                                                        @lang('Marshal')</p>
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
@@ -1725,8 +1723,7 @@
                                                                     <img src="media/images/icons/skirt--base.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">Маршал&nbsp;на
-                                                                        отдыхе</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('Marshal&nbsp;on vacation')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1738,7 +1735,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colros--two.svg" alt="img"
@@ -1760,7 +1757,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1769,7 +1766,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1777,7 +1774,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1785,7 +1782,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        Лазер</p>
+                                                                        @lang('Laser')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1797,7 +1794,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ПРЕДМЕТ</p>
+                                                                    @lang('OBJECT')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1806,7 +1803,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        пистолет Макарова</p>
+                                                                        @lang('Makarov pistol')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1814,7 +1811,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        мартини</p>
+                                                                        @lang('martinis')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1838,7 +1835,7 @@
                                                                 <img src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ФОН</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors.svg" alt="img"
@@ -1874,7 +1871,7 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    ОКРАСКА</p>
+                                                                    @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <img src="media/images/icons/colors--three.svg"
@@ -1898,7 +1895,7 @@
                                                                 <img src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПАСТЬ</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1907,7 +1904,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        открытая</p>
+                                                                        @lang('open')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1915,7 +1912,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        закрытая</p>
+                                                                        @lang('closed')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1926,7 +1923,7 @@
                                                                 <img src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЗРАЧОК</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1935,7 +1932,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        желтый</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -1943,7 +1940,7 @@
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        красный</p>
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1954,7 +1951,7 @@
                                                                 <img src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ЛАЗЕР</p>
+                                                                <p class="title title--s sm-info-card__title">@lang('Laser')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1962,14 +1959,14 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
                                                                     <img src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">да</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('yes')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1983,8 +1980,7 @@
                                                                 <img src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПРЕДМЕТ
-                                                                    ЛЕВО</p>
+                                                                <p class="title title--s sm-info-card__title">@lang("OBJECT LEFT")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1992,7 +1988,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -2000,7 +1996,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        ксива</p>
+                                                                        @lang('credentials')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -2008,7 +2004,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        финка</p>
+                                                                        @lang('Finland&nbsp;knife')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2019,8 +2015,7 @@
                                                                 <img src="media/images/icons/gun--left.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">ПРЕДМЕТ
-                                                                    ПРАВО</p>
+                                                                <p class="title title--s sm-info-card__title">@lang("OBJECT RIGHT")</p>
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--flex-start">
@@ -2029,7 +2024,7 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">нет</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
@@ -2037,7 +2032,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        маузер</p>
+                                                                        @lang('mauser')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2055,9 +2050,10 @@
                 </div>
             </div>
         </div>
+
         <div class="tape-swiper" data-aos="fade-up" data-swiper-name="celebrities">
             <div class=" container">
-                <p class="tape-swiper__heading">Минтозавры для инфлюенсеров</p>
+                <p class="tape-swiper__heading">@lang("Mintosaurs for Influencers")</p>
             </div>
             <div class="tape-swiper__swiper swiper">
                 <div class="tape-swiper__swiper-wrapper tape-swiper__swiper-wrapper--padding swiper-wrapper">
@@ -2067,7 +2063,7 @@
                              class="tape-swiper__slide-img">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                 <span class="tape-swiper__swiper-btn-text">
-                  Моргенштерн
+                  @lang("Morgenshtern")
                 </span>
                 <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
                      class="tape-swiper__swiper-btn-icon">
@@ -2120,7 +2116,7 @@
         <div class="s-info" data-aos="fade-right">
             <div class="container">
                 <div class="s-info__inner">
-                    <p class="s-info__heading">Хотите получить Минтозавра со своим персональным дизайном? Пишите:</p>
+                    <p class="s-info__heading">@lang('Would you like to get a Mintosaurus with your personal design? Write:')</p>
                     <a href="https://t.me/filimono" class="s-info__btn">
                         <svg class="s-info__btn-svg" width="20" height="20" viewBox="0 0 20 20"
                              xmlns="http://www.w3.org/2000/svg">
@@ -2129,30 +2125,25 @@
                         </svg>
                         <span class="s-info__btn-text">@filimono</span>
                     </a>
-                    <p class="s-info__text"><sup>*</sup> Условия: вы известная личность и ваша внешность примечательна
+                    <p class="s-info__text"><sup>*</sup> @lang('Conditions: you are a famous person and your appearance is remarkable')
                     </p>
                 </div>
             </div>
         </div>
         <div class="b-info-card" id="_2" data-aos="fade-left">
             <div class="container">
-                <div class="b-info-card__title heading">Идеолог проекта</div>
+                <div class="b-info-card__title heading">@lang('Project leader')</div>
                 <div class="b-info-card__inner">
                     <img src="media/images/kirill.png" alt="img" width="392" height="348" class="b-info-card__img">
                     <div class="b-info-card__content">
                         <div class="btn btn--flat b-info-card__supheading">
-                            <span class="btn-text">Идеолог проекта</span>
+                            <span class="btn-text">@lang('Project leader')</span>
                         </div>
-                        <p class="heading b-info-card__heading">Кирилл Филимонов</p>
-                        <p class="body-text b-info-card__body-text">Человек, который стоял у истоков TON. Широко
-                            известен в
-                            комьюнити.
-                            Кирилл всегда запускает прорывные вещи, которые будоражат рынок и собирает вокруг себя
-                            талантливых
-                            людей. И все это на мультиязычную аудиторию.</p>
+                        <p class="heading b-info-card__heading">@lang('Kirill Filimonov')</p>
+                        <p class="body-text b-info-card__body-text">@lang('The man who stood at the origins of TON. Widely known in the community. Kirill always launches breakthrough things that excite the market and gather talented people around him. And all this for a multilingual audience.')</p>
                         <p class="body-text b-info-card__body-text">
-                            Его проекты:<br>
-                            Телеграм-каналы: <b><a href="https://t.me/givemetonru" target="_blank">@givemetonru</a></b>,
+                            @lang("His projects"):<br>
+                            @lang("Telegram channels"): <b><a href="https://t.me/givemetonru" target="_blank">@givemetonru</a></b>,
                             <b><a href="https://t.me/tonelite_open" target="_blank">@tonelite_open</a></b>, <b><a
                                     href="https://t.me/tonblogru" target="_blank">@tonblogru</a></b>, <b><a
                                     href="https://t.me/givemetons" target="_blank">@givemetons</a></b>,
@@ -2160,10 +2151,10 @@
                                     href="https://t.me/givemetonzh" target="_blank">@givemetonzh</a></b>
                         </p>
                         <p class="body-text b-info-card__body-text">
-                            Суперапп: <b><a href="https://t.me/tonometerbot" target="_blank">@tonometerbot</a></b>
+                            @lang("SuperApp"): <b><a href="https://t.me/tonometerbot" target="_blank">@tonometerbot</a></b>
                         </p>
                         <p class="body-text b-info-card__body-text">
-                            Сайт: <b><a href="https://ru.ton-telegram.network"
+                            @lang("Website"): <b><a href="https://ru.ton-telegram.network"
                                         target="_blank">ru.ton-telegram.network</a></b>
                         </p>
                         <div class="social-links b-info-card__social-links">
@@ -2218,14 +2209,14 @@
         <div class="container">
             <div class="footer__inner">
                 <a href="https://ru.ton.org" target="_blank" class="l-link footer__l-link">
-                    <span class="l-link__text">Базируется на</span>
+                    <span class="l-link__text">@lang('Based on')</span>
                     <img src="media/images/ton-logo-text.svg" alt="icon" width="96" height="40" class="l-link__icon">
                 </a>
                 <div class="logo footer__logo">
                     <img src="media/images/logo-main.svg" alt="logo" width="130" height="137" class="logo__img">
                 </div>
                 <a href="https://t.me/mintosaurs_ru" target="_blank" class="l-link footer__l-link">
-                    <span class="l-link__text">Канал проекта</span>
+                    <span class="l-link__text">@lang('Project channel')</span>
                     <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
                 </a>
             </div>

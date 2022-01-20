@@ -7,7 +7,10 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 Route::group(['prefix' => LaravelLocalization::setLocale()], function () {
     Route::get('/', function () {
-        return view('main');
+        if(isset($_GET) && array_key_exists('pass',$_GET) && $_GET['pass']='VERSTAK'){
+            return view('main');
+        }
+
     });
 });
 
