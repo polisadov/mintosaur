@@ -2258,10 +2258,18 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <a href="https://ru.ton.org" target="_blank" class="l-link footer__l-link">
-                    <span class="l-link__text">@lang('Based on')</span>
-                    <img src="media/images/ton-logo-text.svg" alt="icon" width="96" height="40" class="l-link__icon">
-                </a>
+                @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
+                    <a href="https://ton.org" target="_blank" class="l-link footer__l-link">
+                        <span class="l-link__text">@lang('Based on')</span>
+                        <img src="media/images/ton-logo-text.svg" alt="icon" width="96" height="40" class="l-link__icon">
+                    </a>
+                @else
+                    <a href="https://ru.ton.org" target="_blank" class="l-link footer__l-link">
+                        <span class="l-link__text">@lang('Based on')</span>
+                        <img src="media/images/ton-logo-text.svg" alt="icon" width="96" height="40" class="l-link__icon">
+                    </a>
+                @endif
+
                 <div class="logo footer__logo">
                     <img src="media/images/logo-main.svg" alt="logo" width="130" height="137" class="logo__img">
                 </div>
