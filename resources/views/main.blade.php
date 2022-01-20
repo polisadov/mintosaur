@@ -2089,11 +2089,19 @@
                         <img src="media/images/icons/lock-2.svg" alt="img" width="213" height="213"
                              class="folders__decor-right">
                         <div class="folders__img-box">
-                            <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                            @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
+                                <img src="media/images/folder-en.png" alt="img" width="228" height="260" class="folders__img">
+                            @else
+                                <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                            @endif
                             <div class="folders__tag">2D</div>
                         </div>
                         <div class="folders__img-box">
-                            <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                            @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
+                                <img src="media/images/folder-en.png" alt="img" width="228" height="260" class="folders__img">
+                            @else
+                                <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                            @endif
                             <div class="folders__tag">3D</div>
                         </div>
                     </div>
