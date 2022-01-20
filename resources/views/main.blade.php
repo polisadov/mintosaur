@@ -160,7 +160,7 @@
                                 <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (9
                                     440)
                                 </button>
-                                <button class="var-nav__btn btn-text">@lang("Tyrannosauruses") (149)</button>
+                                <button class="var-nav__btn btn-text">@lang("Tyrannosaurus") (149)</button>
                                 <button class="var-nav__btn btn-text">@lang("Pterodactyls") (400)</button>
                             </div>
                             <div class="var-nav__body">
