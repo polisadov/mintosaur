@@ -217,7 +217,7 @@
                                                                 <p class="title title--s sm-info-card__title">@lang("BACKGROUND")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors.svg" alt="img"
+                                                                <img src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -547,7 +547,7 @@
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors.svg" alt="img"
+                                                                <img src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -891,7 +891,7 @@
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors.svg" alt="img"
+                                                                <img src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -1272,7 +1272,7 @@
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors.svg" alt="img"
+                                                                <img src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -1471,7 +1471,7 @@
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors.svg" alt="img"
+                                                                <img src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -1855,7 +1855,7 @@
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors.svg" alt="img"
+                                                                <img src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
