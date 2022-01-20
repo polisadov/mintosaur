@@ -375,6 +375,7 @@
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--items-margin-bottom-50">
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">60%</div>
                                                                     <img src="media/images/icons/no.png" alt="icon"
@@ -382,14 +383,16 @@
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">15%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/camera.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('camera')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">15%</div>
                                                                     <img src="media/images/icons/beer.png" alt="icon"
@@ -397,6 +400,7 @@
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;3')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/coctail.png" alt="icon"
@@ -405,9 +409,9 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('cocktail')</p>
                                                                 </div>
-                                                                <div
-                                                                    class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+
+                                                                <div class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/baltika-9.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -700,21 +704,24 @@
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
+
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">80%</div>
+                                                                    <div class="t-info__small-tag small-tag">40%</div>
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">15%</div>
+                                                                    <div class="t-info__small-tag small-tag">20%</div>
                                                                     <img src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('Makarov pistol')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/stick.png" alt="icon"
@@ -723,35 +730,38 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('traffic wand')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">5%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/racija.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('radio')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">5%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/dubinka.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('baton')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">5%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/naruchniki.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('handcuffs')</p>
                                                                 </div>
-                                                                <div
-                                                                    class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
+
+                                                                <div class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/lupa.png" alt="icon"
                                                                          width="54" height="54"
@@ -1039,90 +1049,101 @@
                                                             </div>
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
+
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">60%</div>
+                                                                    <div class="t-info__small-tag small-tag">30%</div>
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info ">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">20%</div>
                                                                     <img src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('Makarov pistol')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/coctail.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        коктейль</p>
+                                                                        @lang('cocktail')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info ">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/stick.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('traffic wand')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/camera.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('camera')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info ">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/beer.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;3')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info ">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/racija.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('radio')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/dubinka.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('baton')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/naruchniki.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('handcuffs')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/lupa.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('magnifier')</p>
                                                                 </div>
+
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">5%</div>
                                                                     <img src="media/images/icons/baltika-9.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -1715,7 +1736,7 @@
                                                             <div
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">47%</div>
+                                                                    <div class="t-info__small-tag small-tag">50%</div>
                                                                     <img src="media/images/icons/marshall.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -1724,7 +1745,7 @@
                                                                 </div>
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                    <div class="t-info__small-tag small-tag">47%</div>
+                                                                    <div class="t-info__small-tag small-tag">50%</div>
                                                                     <img src="media/images/icons/skirt--base.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
