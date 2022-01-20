@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mintosaur</title>
+    <title>@lang('Mintosaurs — legendary TON NFT')</title>
     <link rel="shortcut icon" href="{{asset('/media/images/favicon.png')}}"/>
-    <meta name="description" content="">
+    <meta name="description"
+          сontent="@lang('Rare and almost priceless creatures from the red list of TON blockchain.')">
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link href="{{asset('css/index.css')}}" rel="stylesheet">
@@ -51,21 +52,20 @@
                     <div class="nav__btns">
                         <div class="nav__links">
                             @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                                <a href="/ru?pass=VERSTAK" class="i-link">
+                                <a href="/ru" class="i-link">
                                     <img src="{{asset('media/images/ru-flag.png')}}" alt="icon" width="20" height="20"
                                          class="i-link__icon">
                                     <span class="i-link__text">Rus Version</span>
                                 </a>
                             @else
-                                <a href="/?pass=VERSTAK" class="i-link">
+                                <a href="/" class="i-link">
                                     <img src="{{asset('media/images/eng-flag.png')}}" alt="icon" width="20" height="20"
                                          class="i-link__icon">
                                     <span class="i-link__text">Eng Version</span>
                                 </a>
                             @endif
-
                         </div>
-                        <a href="#" class="btn btn--s" target="_blank">
+                        <a href="https://t.me/mintosaurs_bot" class="btn btn--s" target="_blank">
                             <span class="btn-text btn-text--s">@lang('Buy')</span>
                         </a>
                     </div>
@@ -166,7 +166,8 @@
                     <div class="variations__var-nav var-nav" data-aos="fade-up">
                         <div class="var-nav__inner var-nav__inner--first">
                             <div class="var-nav__head">
-                                <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (9 440)
+                                <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (9
+                                    440)
                                 </button>
                                 <button class="var-nav__btn btn-text">@lang("Tyrannosauruses") (149)</button>
                                 <button class="var-nav__btn btn-text">@lang("Pterodactyls") (400)</button>
@@ -199,7 +200,8 @@
                                         <div
                                             class="var-nav__swiper-slide var-nav__swiper-slide--single-item swiper-slide">
                                             <button class="category-btn category-btn--active var-nav__category-btn">
-                                                <span class="category-btn__text">@lang('Stalin’s security officers always in service')</span>
+                                                <span
+                                                    class="category-btn__text">@lang('Stalin’s security officers always in service')</span>
                                             </button>
                                         </div>
                                     </div>
@@ -386,7 +388,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('photo camera')</p>
+                                                                        @lang('camera')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">15%</div>
@@ -1026,43 +1028,6 @@
                                                     class="var-content-swiper__content-row var-content-swiper__content-row--items-full-width">
 
                                                     <div class="var-content-swiper__content-column">
-                                                        <div class="sm-info-card">
-                                                            <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/uniform.svg" alt="icon"
-                                                                     width="30" height="30"
-                                                                     class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">
-                                                                    @lang('T-SHIRT')</p>
-                                                            </div>
-                                                            <div class="sm-info-card__content">
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/skirt--blue.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('cyan')</p>
-                                                                </div>
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/skirt--green.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('green')</p>
-                                                                </div>
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/skirt--pink.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('pink')</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
                                                             <div class="sm-info-card__head">
                                                                 <img src="media/images/icons/gun.svg" alt="icon"
@@ -1089,6 +1054,14 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('Makarov pistol')</p>
                                                                 </div>
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <img src="media/images/icons/coctail.png" alt="icon"
+                                                                         width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        коктейль</p>
+                                                                </div>
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/stick.png" alt="icon"
@@ -1103,7 +1076,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('photo camera')</p>
+                                                                        @lang('camera')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1158,9 +1131,75 @@
                                                             </div>
                                                         </div>
                                                     </div>
+                                                    <div class="var-content-swiper__content-column">
+                                                        <div class="sm-info-card">
+                                                            <div class="sm-info-card__head">
+                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                     width="30" height="30"
+                                                                     class="sm-info-card__icon">
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
+                                                            </div>
+                                                            <div class="sm-info-card__content">
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">80%</div>
+                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('yellow')</p>
+                                                                </div>
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">20%</div>
+                                                                    <img src="media/images/icons/eye--red.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('red')</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
                                                 </div>
                                                 <div
                                                     class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+                                                    <div class="var-content-swiper__content-column">
+                                                        <div class="sm-info-card">
+                                                            <div class="sm-info-card__head">
+                                                                <img src="media/images/icons/uniform.svg" alt="icon"
+                                                                     width="30" height="30"
+                                                                     class="sm-info-card__icon">
+                                                                <p class="title title--s sm-info-card__title">
+                                                                    @lang('T-SHIRT')</p>
+                                                            </div>
+                                                            <div class="sm-info-card__content">
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">50%</div>
+                                                                    <img src="media/images/icons/skirt--blue.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('cyan')</p>
+                                                                </div>
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">30%</div>
+                                                                    <img src="media/images/icons/skirt--green.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('green')</p>
+                                                                </div>
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">20%</div>
+                                                                    <img src="media/images/icons/skirt--pink.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('pink')</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1198,34 +1237,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="var-content-swiper__content-column">
-                                                        <div class="sm-info-card">
-                                                            <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
-                                                                     width="30" height="30"
-                                                                     class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
-                                                            </div>
-                                                            <div class="sm-info-card__content">
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('yellow')</p>
-                                                                </div>
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('red')</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1391,14 +1403,7 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('Marshal')</p>
                                                                 </div>
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">0,01%</div>
-                                                                    <img src="media/images/icons/generalisimus.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('Generalisimus')</p>
-                                                                </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -2051,6 +2056,30 @@
             </div>
         </div>
 
+        <div class="folders">
+            <img src="media/images/icons/folders-bg.svg" alt="img" width="454" height="565" class="folders__bg">
+            <div class="container">
+                <div class="folders__inner">
+                    <p class="heading folders__heading" data-aos="fade-up">Генералиссимус</p>
+                    <div class="folders__content" data-aos="fade-up">
+                        <img src="media/images/icons/shield.svg" alt="img" width="65" height="65" class="folders__icon">
+                        <img src="media/images/icons/lock-1.svg" alt="img" width="250" height="250"
+                             class="folders__decor-left">
+                        <img src="media/images/icons/lock-2.svg" alt="img" width="213" height="213"
+                             class="folders__decor-right">
+                        <div class="folders__img-box">
+                            <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                            <div class="folders__tag">2D</div>
+                        </div>
+                        <div class="folders__img-box">
+                            <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                            <div class="folders__tag">3D</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="tape-swiper" data-aos="fade-up" data-swiper-name="celebrities">
             <div class=" container">
                 <p class="tape-swiper__heading">@lang("Mintosaurs for Influencers")</p>
@@ -2125,7 +2154,8 @@
                         </svg>
                         <span class="s-info__btn-text">@filimono</span>
                     </a>
-                    <p class="s-info__text"><sup>*</sup> @lang('Conditions: you are a famous person and your appearance is remarkable')
+                    <p class="s-info__text">
+                        <sup>*</sup> @lang('Conditions: you are a famous person and your appearance is remarkable')
                     </p>
                 </div>
             </div>
@@ -2155,7 +2185,7 @@
                         </p>
                         <p class="body-text b-info-card__body-text">
                             @lang("Website"): <b><a href="https://ru.ton-telegram.network"
-                                        target="_blank">ru.ton-telegram.network</a></b>
+                                                    target="_blank">ru.ton-telegram.network</a></b>
                         </p>
                         <div class="social-links b-info-card__social-links">
                             <a href="https://instagram.com/givemegram" target="_blank" class="social-links__link">
@@ -2215,15 +2245,23 @@
                 <div class="logo footer__logo">
                     <img src="media/images/logo-main.svg" alt="logo" width="130" height="137" class="logo__img">
                 </div>
-                <a href="https://t.me/mintosaurs_ru" target="_blank" class="l-link footer__l-link">
-                    <span class="l-link__text">@lang('Project channel')</span>
-                    <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
-                </a>
+                @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
+                    <a href="https://t.me/mintosaurs" target="_blank" class="l-link footer__l-link">
+                        <span class="l-link__text">@lang('Project channel')</span>
+                        <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
+                    </a>
+                @else
+                    <a href="https://t.me/mintosaurs_ru" target="_blank" class="l-link footer__l-link">
+                        <span class="l-link__text">@lang('Project channel')</span>
+                        <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
+                    </a>
+                @endif
+                
             </div>
         </div>
     </footer>
 </div>
-<script defer src="js/610.js"></script>
+<script defer src="js/488.js"></script>
 <script defer src="js/app.js"></script>
 </body>
 
