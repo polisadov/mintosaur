@@ -2072,7 +2072,7 @@
             <img src="media/images/icons/folders-bg.svg" alt="img" width="454" height="565" class="folders__bg">
             <div class="container">
                 <div class="folders__inner">
-                    <p class="heading folders__heading" data-aos="fade-up">Генералиссимус</p>
+                    <p class="heading folders__heading" data-aos="fade-up">@lang('Generalisimus')</p>
                     <div class="folders__content" data-aos="fade-up">
                         <img src="media/images/icons/shield.svg" alt="img" width="65" height="65" class="folders__icon">
                         <img src="media/images/icons/lock-1.svg" alt="img" width="250" height="250"
