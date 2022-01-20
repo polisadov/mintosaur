@@ -2284,6 +2284,12 @@
 </div>
 <script defer src="js/488.js"></script>
 <script defer src="js/app.js"></script>
+<style>
+    .sm-info-card__title{
+        text-transform: uppercase;
+    }
+
+</style>
 </body>
 
 </html>
