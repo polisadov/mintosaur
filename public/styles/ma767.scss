@@ -1,0 +1,129 @@
+@media (max-width: 767px) {
+  .main-scr {
+    &__heading {
+      margin-bottom: 20px;
+    }
+  }
+  .nav {
+    padding: 115px 10px;
+  }
+  .info-tape {
+    &__inner {
+      justify-content: center;
+    }
+  }
+  .d-block {
+    &__body-text {
+      margin-bottom: 22px;
+    }
+    &__bg {
+      display: none;
+    }
+    &__three-items-grid {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 22px;
+    }
+  }
+  .s-info {
+    &__btn {
+      width: 100%;
+      padding: 10px 54px;
+    }
+  }
+  .tape-swiper {
+    padding: 20px 0;
+    &__inner {
+    }
+    &__heading {
+      font-size: 22px;
+      line-height: 1.54;
+    }
+    &__swiper-wrapper {
+      &--padding {
+        padding: 42px 15px;
+      }
+    }
+
+    &__swiper-btn {
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 26px 10px 8px 10px;
+    }
+
+    &__swiper-btn-icon {
+      order: 1;
+      width: 24px;
+      height: 24px;
+      margin-bottom: 2px;
+    }
+
+    &__swiper-btn-text {
+      order: 2;
+      font-size: 12px;
+      line-height: 1.2222;
+    }
+  }
+  .heading {
+    font-size: 24px;
+  }
+  .body-text {
+    font-size: 15px;
+    line-height: 1.5667;
+  }
+  .faq-item {
+    &__head {
+      padding: 11px 15px;
+    }
+    &__body-inner {
+      padding: 11px 15px;
+    }
+    &__btn-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .v-info {
+    &__inner {
+      padding: 27px 15px 26px 119px;
+      text-align: left;
+      position: relative;
+      align-items: flex-start;
+    }
+    &__circle-tag {
+      margin-bottom: 0;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 84px;
+      height: 84px;
+      transform: translate(19px, -50%);
+    }
+
+    &__title {
+      margin-bottom: 6px;
+    }
+
+    &__body-text {
+      font-size: 12px;
+      line-height: 17px;
+    }
+  }
+  .highlighted-info {
+    margin-top: 0;
+    padding: 29px 14px 25px 17px;
+    &__head {
+      display: flex;
+      align-items: center;
+      margin-bottom: 19px;
+    }
+    &__icon {
+      margin-right: 11px;
+      width: 24px;
+      height: 24px;
+      margin-bottom: 0;
+    }
+    &__title {
+      margin-bottom: 0;
+    }
+  }
+}
