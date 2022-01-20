@@ -352,8 +352,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div
-                                                    class="var-content-swiper__content-row var-content-swiper__content-row--items-full-width">
+                                                <div class="var-content-swiper__content-row var-content-swiper__content-row--items-full-width">
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -448,34 +447,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="var-content-swiper__content-column">
-                                                        <div class="sm-info-card">
-                                                            <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
-                                                                     width="30" height="30"
-                                                                     class="sm-info-card__icon">
-                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
-                                                            </div>
-                                                            <div class="sm-info-card__content">
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('yellow')</p>
-                                                                </div>
-                                                                <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
-                                                                         alt="icon" width="54" height="54"
-                                                                         class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('red')</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -500,6 +472,34 @@
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('leaves')</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="var-content-swiper__content-column">
+                                                        <div class="sm-info-card">
+                                                            <div class="sm-info-card__head">
+                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                     width="30" height="30"
+                                                                     class="sm-info-card__icon">
+                                                                <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
+                                                            </div>
+                                                            <div class="sm-info-card__content">
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">80%</div>
+                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('yellow')</p>
+                                                                </div>
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">20%</div>
+                                                                    <img src="media/images/icons/eye--red.png"
+                                                                         alt="icon" width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">
+                                                                        @lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1025,8 +1025,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div
-                                                    class="var-content-swiper__content-row var-content-swiper__content-row--items-full-width">
+                                                <div class="var-content-swiper__content-row var-content-swiper__content-row--items-full-width">
 
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
@@ -1038,8 +1037,7 @@
                                                                     @lang('OBJECT')
                                                                 </p>
                                                             </div>
-                                                            <div
-                                                                class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
+                                                            <div class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
@@ -1236,7 +1234,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('fruits')</p>
+                                                                        @lang('flowers')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
