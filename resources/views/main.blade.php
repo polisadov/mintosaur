@@ -82,7 +82,7 @@
                 <div class="main-scr__inner">
                     <p class="heading main-scr__heading" data-aos="fade-right">@lang("Mintosaurs — who are they?")</p>
                     <p class="body-text main-scr__body-text" data-aos="fade-right" data-aos-delay="100">
-                        @lang("Imagine the crazy symbiosis of Jurassic Park and Arnold Schwarzenegger's Red Heat?")
+                        @lang("Imagine the crazy symbiosis of Jurassic Park and Arnold Schwarzenegger's Red Heat.")
                         <br><br>
                         @lang("And that's not all. Mintosaurs are trying to connect dinosaurs with the symbolism of the Soviet Union. Stalin’s security officers pterodactels? Soviet Police-velociraptors? Or maybe it will be the Tirex Marshal of the Soviet Union during a vacation in communist Cuba?")
                         <br><br>
