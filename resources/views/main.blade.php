@@ -335,14 +335,16 @@
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="media/images/icons/laser--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('blue')</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
                                                                     <img src="media/images/icons/laser--red.png"
@@ -351,13 +353,14 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('red')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/laser--yellow.png"
+                                                                    <img src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('yellow')</p>
+                                                                        @lang('blue')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -656,6 +659,8 @@
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('Laser')</p>
                                                             </div>
+
+
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
@@ -664,14 +669,16 @@
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="media/images/icons/laser--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        синий</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
                                                                     <img src="media/images/icons/laser--red.png"
@@ -680,14 +687,16 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('red')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/laser--yellow.png"
+                                                                    <img src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('yellow')</p>
+                                                                        @lang('blue')</p>
                                                                 </div>
+
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1008,14 +1017,16 @@
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="media/images/icons/laser--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('blue')</p>
+                                                                        @lang('yellow')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
                                                                     <img src="media/images/icons/laser--red.png"
@@ -1024,13 +1035,14 @@
                                                                     <p class="semi-15-text t-info__semi-15-text">
                                                                         @lang('red')</p>
                                                                 </div>
+
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/laser--yellow.png"
+                                                                    <img src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('yellow')</p>
+                                                                        @lang('blue')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
