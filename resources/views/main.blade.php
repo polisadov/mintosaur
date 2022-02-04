@@ -2133,7 +2133,7 @@
                              class="tape-swiper__slide-img">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                 <span class="tape-swiper__swiper-btn-text">
-                  @lang("Morgenshtern")
+                  @lang("Rapper")
                 </span>
                 <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
                      class="tape-swiper__swiper-btn-icon">
