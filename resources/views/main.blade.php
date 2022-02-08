@@ -2102,9 +2102,9 @@
                              class="folders__decor-right">
                         <div class="folders__img-box">
                             @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                                <img src="media/images/folder-en.png" alt="img" width="228" height="260" class="folders__img">
+                                <img src="media/images/secret_folder.png" alt="img" width="228" height="260" class="folders__img">
                             @else
-                                <img src="media/images/folder.png" alt="img" width="228" height="260" class="folders__img">
+                                <img src="media/images/secret_folder.png" alt="img" width="228" height="260" class="folders__img">
                             @endif
                             <div class="folders__tag">2D</div>
                         </div>
