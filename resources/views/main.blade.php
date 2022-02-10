@@ -1,94 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-WH8JR73');</script>
-    <!-- End Google Tag Manager -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@lang('Mintosaurs — legendary TON NFT')</title>
-    <link rel="shortcut icon" href="{{asset('/media/images/favicon.png')}}"/>
-    <meta name="description"
-          сontent="@lang('Rare and almost priceless creatures from the red list of TON blockchain.')">
-    <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <link href="{{asset('css/index.css')}}" rel="stylesheet">
-</head>
-
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH8JR73"
-                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<div id="root">
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="logo header__logo">
-                    <img src="{{asset('media/images/logo-main.svg')}}" alt="logo" width="167" height="167"
-                         class="logo__img">
-                </div>
-                <div class="header__text-box">
-                    <p class="nav__heading">@lang('Mintosaurs — legendary TON NFT')</p>
-                    <p class="nav__text">@lang('Rare and almost priceless creatures from the red list of TON blockchain.')</p>
-                </div>
-                <div class="header__burger burger toggle-nav-menu-trigger">
-                    <div class="burger__inner">
-                        <div class="burger__stick"></div>
-                    </div>
-                </div>
-
-                <nav class="nav header__nav">
-                    <div class="nav__info">
-                        <ul class="menu-list nav__menu-list">
-                            <li class="menu-list__item">
-                                <a href="#_1"
-                                   class="menu-list__link toggle-nav-menu-trigger">@lang('Mintosaurs type')</a>
-                            </li>
-                            <li class="menu-list__item">
-                                <a href="#_2"
-                                   class="menu-list__link toggle-nav-menu-trigger">@lang('Project leader')</a>
-                            </li>
-                        </ul>
-                        <p class="nav__heading">@lang('Mintosaurs — legendary TON NFT')</p>
-                        <p class="nav__text">@lang('Rare and almost priceless creatures from the red list of TON blockchain.')</p>
-                    </div>
-
-                    <div class="nav__btns">
-                        <div class="nav__links">
-                            @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                                <a href="/ru" class="i-link">
-                                    <img src="{{asset('media/images/ru-flag.png')}}" alt="icon" width="20" height="20"
-                                         class="i-link__icon">
-                                    <span class="i-link__text">Rus Version</span>
-                                </a>
-                            @else
-                                <a href="/" class="i-link">
-                                    <img src="{{asset('media/images/eng-flag.png')}}" alt="icon" width="20" height="20"
-                                         class="i-link__icon">
-                                    <span class="i-link__text">Eng Version</span>
-                                </a>
-                            @endif
-                        </div>
-                        <a href="https://t.me/mintosaurs_bot" class="btn btn--s" target="_blank">
-                            <span class="btn-text btn-text--s">@lang('Buy')</span>
-                        </a>
-                    </div>
-                </nav>
-
-                <img src="{{asset('media/images/map-decor.svg')}}" alt="img" width="276" height="171"
-                     class="header__decor-map">
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <div class="main-scr">
+@extends('layout.app')
+@section('content')
             <div class="container">
                 <div class="main-scr__inner">
                     <p class="heading main-scr__heading" data-aos="fade-right">@lang("Mintosaurs — who are they?")</p>
@@ -1319,6 +1230,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--COLORING-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1326,23 +1239,26 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    @lang('COLORING')
-                                                                </p>
+                                                                    @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colros--two.svg" alt="img"
+                                                                <img src="media/images/icons/tyran-palette.svg" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div
                                                                     class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                    <div class="small-tag sm-info-card__small-tag">50%
-                                                                    </div>
-                                                                    <div class="small-tag sm-info-card__small-tag">50%
-                                                                    </div>
+                                                                    <div class="small-tag sm-info-card__small-tag">5%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">7%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">10%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">10%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">34%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">34%</div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--MOUTH-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1379,6 +1295,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--PUPIL-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1408,8 +1326,11 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div
-                                                    class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+
+                                                <!--TYRANNOSAURUS SERVICE 2-ND ROW-->
+                                                <div class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+
+                                                    <!--RANK-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1440,6 +1361,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--OBJECT-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
                                                             <div class="sm-info-card__head">
@@ -1447,7 +1370,8 @@
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
-                                                                    @lang('OBJECT')</p>
+                                                                    @lang('OBJECT')
+                                                                </p>
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
@@ -1455,15 +1379,15 @@
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('None')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/gun.png" alt="icon"
+                                                                    <img src="media/images/icons/golden_macarov.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('Makarov pistol')</p>
+                                                                        @lang('Golden Makarov gun')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
@@ -1471,7 +1395,7 @@
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('bribe')</p>
+                                                                        @lang('Bribe')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1518,6 +1442,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--COLORING-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1528,19 +1454,23 @@
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colros--two.svg" alt="img"
+                                                                <img src="media/images/icons/tyran-palette.svg" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div
                                                                     class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                    <div class="small-tag sm-info-card__small-tag">50%
-                                                                    </div>
-                                                                    <div class="small-tag sm-info-card__small-tag">50%
-                                                                    </div>
+                                                                    <div class="small-tag sm-info-card__small-tag">5%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">7%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">10%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">10%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">34%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">34%</div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--MOUTH-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1577,6 +1507,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--PUPIL-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1605,6 +1537,13 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+
+                                                </div>
+                                                <!--TYRANOSAURUS MIXED 2-ND ROW-->
+                                                <div class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+
+                                                    <!--OBJECT-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1633,9 +1572,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div
-                                                    class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+
+                                                    <!--RANK-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1665,6 +1603,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--T-SHIRT-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1702,6 +1642,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--PATTERN-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1781,10 +1723,8 @@
                                                                      class="sm-info-card__img">
                                                                 <div
                                                                     class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                    <div class="small-tag sm-info-card__small-tag">50%
-                                                                    </div>
-                                                                    <div class="small-tag sm-info-card__small-tag">50%
-                                                                    </div>
+                                                                    <div class="small-tag sm-info-card__small-tag">50%</div>
+                                                                    <div class="small-tag sm-info-card__small-tag">50%</div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1927,6 +1867,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--MOUTH-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1937,15 +1879,15 @@
                                                             </div>
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <div class="t-info__small-tag small-tag">20%</div>
+                                                                    <img src="media/images/icons/cigarette.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
-                                                                        @lang('open')</p>
+                                                                        @lang('cigarette')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">20%</div>
+                                                                    <div class="t-info__small-tag small-tag">80%</div>
                                                                     <img src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -1955,6 +1897,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--PUPIL-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -1983,6 +1927,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--LASER-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -2001,17 +1947,20 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="media/images/icons/laser--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
-                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('yes')</p>
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('red')</p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div
-                                                    class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+
+                                                <!--PTERODACTYLS 2-ND ROW-->
+                                                <div class="var-content-swiper__content-row var-content-swiper__content-row--flex-start">
+
+                                                    <!--LEFT OBJECT-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -2020,6 +1969,7 @@
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang("OBJECT LEFT")</p>
                                                             </div>
+
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">70%</div>
@@ -2093,7 +2043,7 @@
             <img src="media/images/icons/folders-bg.svg" alt="img" width="454" height="565" class="folders__bg">
             <div class="container">
                 <div class="folders__inner">
-                    <p class="heading folders__heading" data-aos="fade-up">@lang('Generalisimus')</p>
+                    <p class="heading folders__heading" data-aos="fade-up">@lang('Generalissimus')</p>
                     <div class="folders__content" data-aos="fade-up">
                         <img src="media/images/icons/shield.svg" alt="img" width="65" height="65" class="folders__icon">
                         <img src="media/images/icons/lock-1.svg" alt="img" width="250" height="250"
@@ -2273,46 +2223,4 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__inner">
-                @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                    <a href="https://ton.org" target="_blank" class="l-link footer__l-link">
-                        <span class="l-link__text">@lang('Based on')</span>
-                        <img src="media/images/ton-logo-text.svg" alt="icon" width="96" height="40" class="l-link__icon">
-                    </a>
-                @else
-                    <a href="https://ru.ton.org" target="_blank" class="l-link footer__l-link">
-                        <span class="l-link__text">@lang('Based on')</span>
-                        <img src="media/images/ton-logo-text.svg" alt="icon" width="96" height="40" class="l-link__icon">
-                    </a>
-                @endif
-
-                <div class="logo footer__logo">
-                    <img src="media/images/logo-main.svg" alt="logo" width="130" height="137" class="logo__img">
-                </div>
-                @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                    <a href="https://t.me/mintosaurs" target="_blank" class="l-link footer__l-link">
-                        <span class="l-link__text">@lang('Project channel')</span>
-                        <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
-                    </a>
-                @else
-                    <a href="https://t.me/mintosaurs_ru" target="_blank" class="l-link footer__l-link">
-                        <span class="l-link__text">@lang('Project channel')</span>
-                        <img src="media/images/telegram.svg" alt="icon" width="40" height="40" class="l-link__icon">
-                    </a>
-                @endif
-
-            </div>
-        </div>
-    </footer>
-</div>
-
-<script defer src="js/app.js"></script>
-
-</body>
-
-</html>
+@endsection

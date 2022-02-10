@@ -1,0 +1,246 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+body {
+	background: #101519;
+	font-family: "Gilroy";
+}
+
+div {
+	margin: 10px 0;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy-SemiBoldItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy-RegularItalic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Gilroy";
+	src: url("fonts/Gilroy-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+h1 {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 58px;
+	color: #f3fff8;
+}
+
+h2 {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 58px;
+	color: #f3fff8;
+}
+
+h3 {
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1.5em;
+	color: #f3fff8;
+}
+
+h4 {
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #f3fff8;
+}
+
+h5 {
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #f3fff8;
+}
+
+h6 {
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #f3fff8;
+}
+
+p {
+	font-family: Gilroy;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: -0.005em;
+	color: #f3fff8;
+	margin: 16px 0;
+}
+
+ul li {
+	font-family: inherit;
+	font-weight: 400;
+	padding: 5px 0;
+	list-style: none;
+	position: relative;
+	color: #f3fff8;
+}
+
+ul li::before {
+	content: "";
+	width: 7px;
+	height: 7px;
+	background: linear-gradient(91.05deg, #23a76f -8.86%, #5fe330 89.35%);
+	border: 2px solid #ffffff;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.69);
+	border: 1px solid #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -15px;
+	font-weight: 400;
+}
+
+ul,
+ol {
+	margin: 0 0 0 30px;
+}
+
+ol li {
+	font-family: inherit;
+	font-weight: 400;
+	padding: 5px 0;
+	position: relative;
+	color: #f3fff8;
+}
+
+i {
+	font-weight: 700;
+	color: #f3fff8;
+	font-family: inherit;
+	font-style: italic;
+}
+
+b,
+strong {
+	font-family: inherit;
+	font-weight: 700;
+	color: #f3fff8;
+}
+
+em {
+	font-weight: 400;
+	color: #f3fff8;
+	font-family: inherit;
+	font-style: italic;
+}
+mark {
+	font-family: inherit;
+}
+
+del {
+	font-family: inherit;
+	color: #f3fff8;
+}
+
+sub,
+sup,
+small {
+	font-family: inherit;
+	color: #f3fff8;
+}
+
+a {
+	color: #f3fff8;
+	font-family: inherit;
+}
+
+blockquote {
+	margin: 30px;
+	border-radius: 15px;
+	background: linear-gradient(91.05deg, #23a76f -8.86%, #5fe330 89.35%);
+}
+
+blockquote p {
+	padding: 15px;
+	border-radius: 5px;
+}
+
+blockquote p::before {
+	content: "\201C";
+}
+
+blockquote p::after {
+	content: "\201D";
+}
+
+figcaption {
+	font-family: inherit;
+	color: #f3fff8;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.image-center {
+	text-align: center;
+}
+
+.image-left {
+	text-align: left;
+}
+
+.image-right {
+	text-align: right;
+}
