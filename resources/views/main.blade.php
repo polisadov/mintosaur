@@ -192,6 +192,8 @@
                                                             </div>
                                                         </div>
                                                     </div>
+
+                                                    <!--MOUTH-->
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
@@ -201,9 +203,8 @@
                                                                 <p class="title title--s sm-info-card__title">@lang("MOUTH")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">70%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -220,7 +221,7 @@
                                                                         @lang('unfolded')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">70%</div>
                                                                     <img src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -536,7 +537,7 @@
                                                             <div class="sm-info-card__content">
 
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">70%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -552,7 +553,7 @@
                                                                         @lang('unfolded')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">70%</div>
                                                                     <img src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -886,7 +887,7 @@
                                                             <div class="sm-info-card__content">
 
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">70%</div>
+                                                                    <div class="t-info__small-tag small-tag">10%</div>
                                                                     <img src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
@@ -902,7 +903,7 @@
                                                                         @lang('unfolded')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">10%</div>
+                                                                    <div class="t-info__small-tag small-tag">70%</div>
                                                                     <img src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
