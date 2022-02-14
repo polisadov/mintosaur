@@ -79,8 +79,7 @@
                     <div class="variations__var-nav var-nav" data-aos="fade-up">
                         <div class="var-nav__inner var-nav__inner--first">
                             <div class="var-nav__head">
-                                <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (9
-                                    440)
+                                <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (7 444)
                                 </button>
                                 <button class="var-nav__btn btn-text">@lang("Tyrannosaurs") (149)</button>
                                 <button class="var-nav__btn btn-text">@lang("Pterodactyls") (400)</button>
@@ -90,13 +89,13 @@
                                     <div class="var-nav__swiper-wrapper swiper-wrapper">
                                         <div class="var-nav__swiper-slide swiper-slide">
                                             <button class="category-btn category-btn--active var-nav__category-btn">
-                                                <span class="category-btn__text">@lang("On vacation") (4 625)</span>
+                                                <span class="category-btn__text">@lang("On vacation") (3 647)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">@lang("In service") (4 625)</span>
+                                                <span class="category-btn__text">@lang("In service") (3 647)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">@lang("Mixed") (190)</span>
+                                                <span class="category-btn__text">@lang("Mixed") (150)</span>
                                             </button>
                                         </div>
                                         <div class="var-nav__swiper-slide swiper-slide">
