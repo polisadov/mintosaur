@@ -45,19 +45,19 @@
                         <img src="media/images/dinos/04.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
+                        <img src="media/images/dinos/05.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                    </div>
+                    <div class="tape-swiper__swiper-slide swiper-slide">
                         <img src="media/images/dinos/06.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
                         <img src="media/images/dinos/07.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/01.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="media/images/dinos/08.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/02.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/03.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="media/images/dinos/09.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                 </div>
             </div>
