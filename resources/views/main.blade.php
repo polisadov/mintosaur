@@ -100,13 +100,13 @@
                                         </div>
                                         <div class="var-nav__swiper-slide swiper-slide">
                                             <button class="category-btn category-btn--active var-nav__category-btn">
-                                                <span class="category-btn__text">@lang("In service") (64)</span>
+                                                <span class="category-btn__text">@lang("In service") (62)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">@lang("Mixed") (64)</span>
+                                                <span class="category-btn__text">@lang("Mixed") (62)</span>
                                             </button>
                                             <button class="category-btn var-nav__category-btn">
-                                                <span class="category-btn__text">@lang("Elite 3D") (21)</span>
+                                                <span class="category-btn__text">@lang("Elite 3D") (25)</span>
                                             </button>
                                         </div>
                                         <div
@@ -1774,9 +1774,19 @@
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('OBJECT')</p>
                                                             </div>
+                                                            <!--ELITE 3D OBJECT-->
                                                             <div class="sm-info-card__content">
+
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">80%</div>
+                                                                    <div class="t-info__small-tag small-tag">30%</div>
+                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                         width="54" height="54"
+                                                                         class="t-info__icon">
+                                                                    <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
+                                                                </div>
+
+                                                                <div class="t-info sm-info-card__t-info">
+                                                                    <div class="t-info__small-tag small-tag">50%</div>
                                                                     <img src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
