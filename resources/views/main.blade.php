@@ -1778,7 +1778,7 @@
                                                             <div class="sm-info-card__content">
 
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">30%</div>
+                                                                    <div class="t-info__small-tag small-tag">50%</div>
                                                                     <img src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
@@ -1786,7 +1786,7 @@
                                                                 </div>
 
                                                                 <div class="t-info sm-info-card__t-info">
-                                                                    <div class="t-info__small-tag small-tag">50%</div>
+                                                                    <div class="t-info__small-tag small-tag">30%</div>
                                                                     <img src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
