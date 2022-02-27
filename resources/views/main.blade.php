@@ -2055,7 +2055,6 @@
                 <div class="folders__inner">
                     <p class="heading folders__heading" data-aos="fade-up">@lang('Generalissimus')</p>
                     <div class="folders__content" data-aos="fade-up">
-                        <img src="media/images/icons/shield.svg" alt="img" width="65" height="65" class="folders__icon">
                         <img src="media/images/icons/lock-1.svg" alt="img" width="250" height="250"
                              class="folders__decor-left">
                         <img src="media/images/icons/lock-2.svg" alt="img" width="213" height="213"
@@ -2089,7 +2088,7 @@
                 <div class="tape-swiper__swiper-wrapper tape-swiper__swiper-wrapper--padding swiper-wrapper">
                     <a href="https://tonometerbot.com/@/nemorgenshtern" target="_blank"
                        class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/05.png" alt="img" width="244" height="243"
+                        <img src="media/images/dinos/rapper.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                 <span class="tape-swiper__swiper-btn-text">
