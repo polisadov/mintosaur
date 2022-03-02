@@ -2082,7 +2082,7 @@
 
         <div class="tape-swiper" data-aos="fade-up" data-swiper-name="celebrities">
             <div class=" container">
-                <p class="tape-swiper__heading">@lang("Mintosaurs for Influencers")</p>
+                <p class="tape-swiper__heading">@lang("Exclusive Mintosaurs")</p>
             </div>
             <div class="tape-swiper__swiper swiper">
                 <div class="tape-swiper__swiper-wrapper tape-swiper__swiper-wrapper--padding swiper-wrapper">
@@ -2091,12 +2091,12 @@
                         <img src="media/images/dinos/rapper.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
-                <span class="tape-swiper__swiper-btn-text">
-                  @lang("Rapper")
-                </span>
-                <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
-                     class="tape-swiper__swiper-btn-icon">
-              </span>
+                            <span class="tape-swiper__swiper-btn-text">
+                              @lang("Rapper")
+                            </span>
+                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
+                                 class="tape-swiper__swiper-btn-icon">
+                        </span>
                     </a>
                     <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
                         <img src="media/images/dinos/02.png" alt="img" width="244" height="243"
@@ -2142,24 +2142,7 @@
             </div>
         </div>
 
-        <div class="s-info" data-aos="fade-right">
-            <div class="container">
-                <div class="s-info__inner">
-                    <p class="s-info__heading">@lang('Would you like to get a Mintosaurus with your personal design? Write:')</p>
-                    <a href="https://t.me/ton_telegrambot" class="s-info__btn">
-                        <svg class="s-info__btn-svg" width="20" height="20" viewBox="0 0 20 20"
-                             xmlns="http://www.w3.org/2000/svg">
-                            <path class="s-info__btn-path"
-                                  d="M17.2208 3.0975L2.44583 8.795C1.4375 9.2 1.44333 9.7625 2.26083 10.0133L6.05416 11.1967L14.8308 5.65917C15.2458 5.40667 15.625 5.5425 15.3133 5.81917L8.2025 12.2367H8.20083L8.2025 12.2375L7.94083 16.1475C8.32416 16.1475 8.49333 15.9717 8.70833 15.7642L10.5508 13.9725L14.3833 16.8033C15.09 17.1925 15.5975 16.9925 15.7733 16.1492L18.2892 4.2925C18.5467 3.26 17.895 2.7925 17.2208 3.0975Z"/>
-                        </svg>
-                        <span class="s-info__btn-text">@ton_telegrambot</span>
-                    </a>
-                    <p class="s-info__text">
-                        <sup>*</sup> @lang('Conditions: you are a famous person and your appearance is remarkable')
-                    </p>
-                </div>
-            </div>
-        </div>
+
         <div class="b-info-card" id="_2" data-aos="fade-left">
             <div class="container">
                 <div class="b-info-card__title heading">@lang('Project leader')</div>
