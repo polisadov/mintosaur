@@ -2098,6 +2098,51 @@
                                  class="tape-swiper__swiper-btn-icon">
                         </span>
                     </a>
+                    <span class="tape-swiper__swiper-slide swiper-slide">
+                        <img src="media/images/dinos/civil_entrepreneur.png" alt="img" width="244" height="243"
+                             class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
+                        <span class="btn btn--no-hover tape-swiper__swiper-btn">
+                            <span class="tape-swiper__swiper-btn-text">
+                              @lang("Entrepreneur")
+                            </span>
+                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
+                                 class="tape-swiper__swiper-btn-icon">
+                        </span>
+                    </span>
+                    <span class="tape-swiper__swiper-slide swiper-slide">
+                        <img src="media/images/dinos/civil_filmmaker.png" alt="img" width="244" height="243"
+                             class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
+                        <span class="btn btn--no-hover tape-swiper__swiper-btn">
+                            <span class="tape-swiper__swiper-btn-text">
+                              @lang("Filmmaker")
+                            </span>
+                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
+                                 class="tape-swiper__swiper-btn-icon">
+                        </span>
+                    </span>
+                    <span class="tape-swiper__swiper-slide swiper-slide">
+                        <img src="media/images/dinos/civil_movie_critic.png" alt="img" width="244" height="243"
+                             class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
+                        <span class="btn btn--no-hover tape-swiper__swiper-btn">
+                            <span class="tape-swiper__swiper-btn-text">
+                              @lang("Movie Critic")
+                            </span>
+                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
+                                 class="tape-swiper__swiper-btn-icon">
+                        </span>
+                    </span>
+                    <span class="tape-swiper__swiper-slide swiper-slide">
+                        <img src="media/images/dinos/civil_programmer.png" alt="img" width="244" height="243"
+                             class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
+                        <span class="btn btn--no-hover tape-swiper__swiper-btn">
+                            <span class="tape-swiper__swiper-btn-text">
+                              @lang("Programmer")
+                            </span>
+                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
+                                 class="tape-swiper__swiper-btn-icon">
+                        </span>
+                    </span>
+
                     <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
                         <img src="media/images/dinos/02.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img">

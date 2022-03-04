@@ -99,5 +99,10 @@
     "cap": "фуражка",
 
     "Based on": "Базируется на",
-    "Project channel": "Канал проекта"
+    "Project channel": "Канал проекта",
+
+    "Entrepreneur": "Предприниматель",
+    "Filmmaker": "Режиссер",
+    "Movie Critic": "Кинокритик",
+    "Programmer": "Программист"
 }
