@@ -11,7 +11,7 @@
                         @lang("In the world of mintosaurs, all this becomes possible!")
                     </p>
                     <div class="main-scr__img-box">
-                        <img src="media/images/main-scr__img.png" alt="img" width="467" height="501"
+                        <img src="#" data-src="media/images/main-scr__img.png" alt="img" width="467" height="501"
                              class="main-scr__img">
                     </div>
                 </div>
@@ -26,52 +26,52 @@
                 </div>
             </div>
             <div class="main-scr__bg-box">
-                <img src="media/images/main-scr__bg.png" alt="img" width="731" height="805" class="main-scr__bg">
+                <img src="#" data-src="media/images/main-scr__bg.png" alt="img" width="731" height="805" class="main-scr__bg">
             </div>
         </div>
         <div class="tape-swiper tape-swiper--shadowed" data-aos="fade-up">
             <div class="tape-swiper__swiper swiper">
                 <div class="tape-swiper__swiper-wrapper swiper-wrapper">
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/01.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/01.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/02.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/02.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/03.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/03.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/04.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/04.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/05.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/05.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/06.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/06.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/07.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/07.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/08.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/08.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                     <div class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/09.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
+                        <img src="#" data-src="media/images/dinos/09.png" alt="img" width="244" height="243" class="tape-swiper__slide-img">
                     </div>
                 </div>
             </div>
         </div>
         <div class="variations" id="red-book">
-            <img src="media/images/v-decor-center.svg" alt="decor" width="1003" height="997"
+            <img src="#" data-src="media/images/v-decor-center.svg" alt="decor" width="1003" height="997"
                  class="variations__decor-center">
-            <img src="media/images/v-decor-left.png" alt="decor" width="260" height="381"
+            <img src="#" data-src="media/images/v-decor-left.png" alt="decor" width="260" height="381"
                  class="variations__decor-left">
-            <img src="media/images/v-decor-right.png" alt="decor" width="245" height="381"
+            <img src="#" data-src="media/images/v-decor-right.png" alt="decor" width="245" height="381"
                  class="variations__decor-right">
             <div class="container">
                 <div class="variations__inner">
-                    <img src="media/images/logo.svg" alt="logo" width="207" height="121" class="variations__logo"
+                    <img src="#" data-src="media/images/logo.svg" alt="logo" width="207" height="121" class="variations__logo"
                          data-aos="fade-up">
                     <p class="heading variations__heading" data-aos="fade-up">@lang("Red list")</p>
                     <p class="body-text variations__body-text"
@@ -132,13 +132,13 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/dash-bg.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang("BACKGROUND")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/colors.png" alt="img"
+                                                                <img src="#" data-src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -167,14 +167,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang("COLORING")</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/clr-palette--y-g-lg-b.svg"
+                                                                <img src="#" data-src="media/images/icons/clr-palette--y-g-lg-b.svg"
                                                                      alt="img" width="488"
                                                                      height="64" class="sm-info-card__img">
                                                                 <div
@@ -196,7 +196,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang("MOUTH")</p>
@@ -204,7 +204,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -213,7 +213,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mouth--open++.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open++.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -221,7 +221,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">70%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -233,7 +233,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/lasor.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang("Laser")</p>
@@ -241,7 +241,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -249,7 +249,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -258,7 +258,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--red.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -267,7 +267,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -281,7 +281,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -293,7 +293,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">60%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -301,7 +301,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/camera.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/camera.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -310,7 +310,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">15%</div>
-                                                                    <img src="media/images/icons/beer.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/beer.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;3')</p>
@@ -318,7 +318,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/coctail.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/coctail.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -327,7 +327,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/baltika-9.png"
+                                                                    <img src="#" data-src="media/images/icons/baltika-9.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;9')</p>
@@ -338,7 +338,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/uniform.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/uniform.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -347,7 +347,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/skirt--blue.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -355,7 +355,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/skirt--green.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--green.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -363,7 +363,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/skirt--pink.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--pink.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -376,7 +376,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/pattern.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/pattern.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PATTERN')</p>
@@ -384,7 +384,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/flowers.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/flowers.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -392,7 +392,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/leafs.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/leafs.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -404,7 +404,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
@@ -412,7 +412,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -420,7 +420,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -432,7 +432,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/hat.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/hat.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('HAT')</p>
@@ -440,7 +440,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">60%</div>
-                                                                    <img src="media/images/icons/fruits.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/fruits.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -448,7 +448,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">40%</div>
-                                                                    <img src="media/images/icons/safari.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/safari.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -466,13 +466,13 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/dash-bg.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/colors.png" alt="img"
+                                                                <img src="#" data-src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -501,14 +501,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/clr-palette--y-g-lg-b.svg"
+                                                                <img src="#" data-src="media/images/icons/clr-palette--y-g-lg-b.svg"
                                                                      alt="img" width="488"
                                                                      height="64" class="sm-info-card__img">
                                                                 <div
@@ -528,7 +528,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
@@ -537,7 +537,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -545,7 +545,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mouth--open++.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open++.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -553,7 +553,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">70%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -565,7 +565,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/lasor.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('Laser')</p>
@@ -575,7 +575,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -583,7 +583,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -592,7 +592,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--red.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -601,7 +601,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -618,7 +618,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -629,7 +629,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">40%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -637,7 +637,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/gun.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -646,7 +646,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/stick.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/stick.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -656,7 +656,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/racija.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/racija.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -666,7 +666,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/dubinka.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/dubinka.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -676,7 +676,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/naruchniki.png"
+                                                                    <img src="#" data-src="media/images/icons/naruchniki.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -685,7 +685,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/lupa.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/lupa.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -697,7 +697,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/rank.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('RANK')</p>
@@ -706,7 +706,7 @@
                                                                 class="sm-info-card__content sm-info-card__content--items-margin-bottom-50">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">60%</div>
-                                                                    <img src="media/images/icons/rank1.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/rank1.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -714,7 +714,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/rank2.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/rank2.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -722,7 +722,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/rank3.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/rank3.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -730,7 +730,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">6%</div>
-                                                                    <img src="media/images/icons/rank4.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/rank4.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -739,7 +739,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/rank5.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/rank5.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -754,7 +754,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/uniform.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/uniform.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('UNIFORM')</p>
@@ -762,7 +762,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">100%</div>
-                                                                    <img src="media/images/icons/skirt--base.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--base.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -770,7 +770,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">100%</div>
-                                                                    <img src="media/images/icons/furazhka.png"
+                                                                    <img src="#" data-src="media/images/icons/furazhka.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -782,7 +782,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
@@ -790,7 +790,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -798,7 +798,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -816,13 +816,13 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/dash-bg.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/colors.png" alt="img"
+                                                                <img src="#" data-src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -851,14 +851,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/clr-palette--y-g-lg-b.svg"
+                                                                <img src="#" data-src="media/images/icons/clr-palette--y-g-lg-b.svg"
                                                                      alt="img" width="488"
                                                                      height="64" class="sm-info-card__img">
                                                                 <div
@@ -878,7 +878,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
@@ -887,7 +887,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -895,7 +895,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mouth--open++.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open++.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -903,7 +903,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">70%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -915,7 +915,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/lasor.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('Laser')</p>
@@ -923,7 +923,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -931,7 +931,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -940,7 +940,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">8%</div>
-                                                                    <img src="media/images/icons/laser--red.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -949,7 +949,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">4%</div>
-                                                                    <img src="media/images/icons/laser--blue.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -964,7 +964,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -975,7 +975,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -983,7 +983,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/gun.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -992,7 +992,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/coctail.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/coctail.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1001,7 +1001,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/stick.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/stick.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1010,7 +1010,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/camera.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/camera.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1019,7 +1019,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/beer.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/beer.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;3')</p>
@@ -1027,7 +1027,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info ">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/racija.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/racija.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1037,7 +1037,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/dubinka.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/dubinka.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1047,7 +1047,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/naruchniki.png"
+                                                                    <img src="#" data-src="media/images/icons/naruchniki.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1057,7 +1057,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/lupa.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/lupa.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1067,7 +1067,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">5%</div>
-                                                                    <img src="media/images/icons/baltika-9.png"
+                                                                    <img src="#" data-src="media/images/icons/baltika-9.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('baltika&nbsp;9')</p>
@@ -1078,7 +1078,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
@@ -1086,7 +1086,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1094,7 +1094,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1110,7 +1110,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/uniform.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/uniform.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -1119,7 +1119,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/skirt--blue.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1127,7 +1127,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/skirt--green.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--green.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1135,7 +1135,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/skirt--pink.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--pink.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1147,7 +1147,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/pattern.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/pattern.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PATTERN & HAT')</p>
@@ -1155,7 +1155,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">100%</div>
-                                                                    <img src="media/images/icons/furazhka.png"
+                                                                    <img src="#" data-src="media/images/icons/furazhka.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1164,7 +1164,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/flowers.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/flowers.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1172,7 +1172,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/leafs.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/leafs.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1198,13 +1198,13 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/dash-bg.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/colors.png" alt="img"
+                                                                <img src="#" data-src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -1235,14 +1235,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/tyran-palette.svg" alt="img"
+                                                                <img src="#" data-src="media/images/icons/tyran-palette.svg" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div
@@ -1262,7 +1262,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
@@ -1270,7 +1270,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1278,7 +1278,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1286,7 +1286,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mouth--laser.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--laser.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1300,7 +1300,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
@@ -1308,7 +1308,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1316,7 +1316,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1334,7 +1334,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/rank.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('RANK')</p>
@@ -1343,7 +1343,7 @@
                                                                 class="sm-info-card__content sm-info-card__content--md-margins">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">78,1%</div>
-                                                                    <img src="media/images/icons/general.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/general.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1351,7 +1351,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">21,9%</div>
-                                                                    <img src="media/images/icons/marshall.png"
+                                                                    <img src="#" data-src="media/images/icons/marshall.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1366,7 +1366,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -1376,14 +1376,14 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">60%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('None')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/golden_macarov.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/golden_macarov.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1391,7 +1391,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/vziatka.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/vziatka.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1410,13 +1410,13 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/dash-bg.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/colors.png" alt="img"
+                                                                <img src="#" data-src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -1447,14 +1447,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/tyran-palette.svg" alt="img"
+                                                                <img src="#" data-src="media/images/icons/tyran-palette.svg" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div
@@ -1474,7 +1474,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
@@ -1482,7 +1482,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1490,7 +1490,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1498,7 +1498,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mouth--laser.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--laser.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1512,7 +1512,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
@@ -1520,7 +1520,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1528,7 +1528,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1547,7 +1547,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -1556,14 +1556,14 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/martini.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/martini.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1577,7 +1577,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/rank.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('RANK')</p>
@@ -1586,7 +1586,7 @@
                                                                 class="sm-info-card__content sm-info-card__content--md-margins">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">78,1%</div>
-                                                                    <img src="media/images/icons/general.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/general.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1594,7 +1594,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">21,9%</div>
-                                                                    <img src="media/images/icons/marshall.png"
+                                                                    <img src="#" data-src="media/images/icons/marshall.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1608,7 +1608,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/uniform.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/uniform.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -1617,7 +1617,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/skirt--blue.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--blue.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1625,7 +1625,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/skirt--green.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--green.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1633,7 +1633,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/skirt--pink.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--pink.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1647,7 +1647,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/pattern.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/pattern.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PATTERN')</p>
@@ -1655,7 +1655,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/flowers.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/flowers.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1663,7 +1663,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/leafs.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/leafs.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1682,7 +1682,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card sm-info-card--padding-bottom-higher">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/rank.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/rank.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('UNIFORM')</p>
@@ -1691,7 +1691,7 @@
                                                                 class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/marshall.png"
+                                                                    <img src="#" data-src="media/images/icons/marshall.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1700,7 +1700,7 @@
                                                                 <div
                                                                     class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/skirt--base.png"
+                                                                    <img src="#" data-src="media/images/icons/skirt--base.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('Marshal&nbsp;on vacation')</p>
@@ -1711,14 +1711,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colros--two.svg" alt="img"
+                                                                <img src="#" data-src="media/images/icons/colros--two.svg" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div
@@ -1732,7 +1732,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
@@ -1740,7 +1740,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/mouth--open.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--open.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1748,7 +1748,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1756,7 +1756,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mouth--laser.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--laser.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1768,7 +1768,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
@@ -1779,7 +1779,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">50%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
@@ -1787,7 +1787,7 @@
 
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">30%</div>
-                                                                    <img src="media/images/icons/gun.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/gun.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1795,7 +1795,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/martini.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/martini.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1820,13 +1820,13 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/dash-bg.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/dash-bg.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('BACKGROUND')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/colors.png" alt="img"
+                                                                <img src="#" data-src="media/images/colors.png" alt="img"
                                                                      width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div class="sm-info-card__small-tags">
@@ -1855,14 +1855,14 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/clr-palette.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/clr-palette.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">
                                                                     @lang('COLORING')</p>
                                                             </div>
                                                             <div class="sm-info-card__content">
-                                                                <img src="media/images/icons/colors--three.svg"
+                                                                <img src="#" data-src="media/images/icons/colors--three.svg"
                                                                      alt="img" width="488" height="64"
                                                                      class="sm-info-card__img">
                                                                 <div
@@ -1882,7 +1882,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/mouth.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/mouth.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
@@ -1890,7 +1890,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/cigarette.png"
+                                                                    <img src="#" data-src="media/images/icons/cigarette.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1898,7 +1898,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/mouth--close.png"
+                                                                    <img src="#" data-src="media/images/icons/mouth--close.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1912,7 +1912,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/eye.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/eye.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('PUPIL')</p>
@@ -1920,7 +1920,7 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/eye--yellow.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--yellow.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1928,7 +1928,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/eye--red.png"
+                                                                    <img src="#" data-src="media/images/icons/eye--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1942,7 +1942,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/lasor.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/lasor.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang('Laser')</p>
@@ -1950,14 +1950,14 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/laser--red.png"
+                                                                    <img src="#" data-src="media/images/icons/laser--red.png"
                                                                          alt="icon" width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('red')</p>
@@ -1974,7 +1974,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang("OBJECT LEFT")</p>
@@ -1983,14 +1983,14 @@
                                                             <div class="sm-info-card__content">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">70%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/ussr.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/ussr.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -1998,7 +1998,7 @@
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">10%</div>
-                                                                    <img src="media/images/icons/knife.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/knife.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -2010,7 +2010,7 @@
                                                     <div class="var-content-swiper__content-column">
                                                         <div class="sm-info-card">
                                                             <div class="sm-info-card__head">
-                                                                <img src="media/images/icons/gun--left.svg" alt="icon"
+                                                                <img src="#" data-src="media/images/icons/gun--left.svg" alt="icon"
                                                                      width="30" height="30"
                                                                      class="sm-info-card__icon">
                                                                 <p class="title title--s sm-info-card__title">@lang("OBJECT RIGHT")</p>
@@ -2019,14 +2019,14 @@
                                                                 class="sm-info-card__content sm-info-card__content--flex-start">
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">80%</div>
-                                                                    <img src="media/images/icons/no.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/no.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                                 </div>
                                                                 <div class="t-info sm-info-card__t-info">
                                                                     <div class="t-info__small-tag small-tag">20%</div>
-                                                                    <img src="media/images/icons/mauser.png" alt="icon"
+                                                                    <img src="#" data-src="media/images/icons/mauser.png" alt="icon"
                                                                          width="54" height="54"
                                                                          class="t-info__icon">
                                                                     <p class="semi-15-text t-info__semi-15-text">
@@ -2043,35 +2043,31 @@
                             </div>
                         </div>
                     </div>
-                    <img src="media/images/icons/red-book-ellipse.svg" alt="img" width="778" height="623"
+                    <img src="#" data-src="media/images/icons/red-book-ellipse.svg" alt="img" width="778" height="623"
                          class="variations__bg">
                 </div>
             </div>
         </div>
 
         <div class="folders">
-            <img src="media/images/icons/folders-bg.svg" alt="img" width="454" height="565" class="folders__bg">
+            <img src="#" data-src="media/images/icons/folders-bg.svg" alt="img" width="454" height="565" class="folders__bg">
             <div class="container">
                 <div class="folders__inner">
                     <p class="heading folders__heading" data-aos="fade-up">@lang('Generalissimus')</p>
                     <div class="folders__content" data-aos="fade-up">
-                        <img src="media/images/icons/lock-1.svg" alt="img" width="250" height="250"
-                             class="folders__decor-left">
-                        <img src="media/images/icons/lock-2.svg" alt="img" width="213" height="213"
-                             class="folders__decor-right">
                         <div class="folders__img-box">
                             @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                                <img src="media/images/secret_folder.png" alt="img" width="228" height="260" class="folders__img">
+                                <img src="#" data-src="media/images/secret_folder.png" alt="img" width="228" height="260" class="folders__img">
                             @else
-                                <img src="media/images/secret_folder.png" alt="img" width="228" height="260" class="folders__img">
+                                <img src="#" data-src="media/images/secret_folder.png" alt="img" width="228" height="260" class="folders__img">
                             @endif
                             <div class="folders__tag">2D</div>
                         </div>
                         <div class="folders__img-box">
                             @if(\Mcamara\LaravelLocalization\Facades\LaravelLocalization::getCurrentLocale() === 'en')
-                                <img src="media/images/folder_3d.png" alt="img" width="228" height="260" class="folders__img">
+                                <img src="#" data-src="media/images/folder_3d.png" alt="img" width="228" height="260" class="folders__img">
                             @else
-                                <img src="media/images/folder_3d.png" alt="img" width="228" height="260" class="folders__img">
+                                <img src="#" data-src="media/images/folder_3d.png" alt="img" width="228" height="260" class="folders__img">
                             @endif
                             <div class="folders__tag">3D</div>
                         </div>
@@ -2088,101 +2084,55 @@
                 <div class="tape-swiper__swiper-wrapper tape-swiper__swiper-wrapper--padding swiper-wrapper">
                     <a href="https://tonometerbot.com/@/nemorgenshtern" target="_blank"
                        class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/rapper.png" alt="img" width="244" height="243"
+                        <img src="#" data-src="media/images/dinos/rapper.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
                               @lang("Rapper")
                             </span>
-                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
-                                 class="tape-swiper__swiper-btn-icon">
+                            <span class="tape-swiper__swiper-btn-icon"></span>
                         </span>
                     </a>
                     <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/civil_entrepreneur.png" alt="img" width="244" height="243"
+                        <img src="#" data-src="media/images/dinos/civil_entrepreneur.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
                               @lang("Entrepreneur")
                             </span>
-                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
-                                 class="tape-swiper__swiper-btn-icon">
+                            <span class="tape-swiper__swiper-btn-icon"></span>
                         </span>
                     </span>
                     <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/civil_filmmaker.png" alt="img" width="244" height="243"
+                        <img src="#" data-src="media/images/dinos/civil_filmmaker.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
                               @lang("Filmmaker")
                             </span>
-                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
-                                 class="tape-swiper__swiper-btn-icon">
+                            <span class="tape-swiper__swiper-btn-icon"></span>
                         </span>
                     </span>
                     <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/civil_movie_critic.png" alt="img" width="244" height="243"
+                        <img src="#" data-src="media/images/dinos/civil_movie_critic.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
                               @lang("Movie Critic")
                             </span>
-                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
-                                 class="tape-swiper__swiper-btn-icon">
+                            <span class="tape-swiper__swiper-btn-icon"></span>
                         </span>
                     </span>
                     <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="media/images/dinos/civil_programmer.png" alt="img" width="244" height="243"
+                        <img src="#" data-src="media/images/dinos/civil_programmer.png" alt="img" width="244" height="243"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
                               @lang("Programmer")
                             </span>
-                            <img src="media/images/icons/swiper-morg.png" alt="img" width="32" height="32"
-                                 class="tape-swiper__swiper-btn-icon">
+                            <span class="tape-swiper__swiper-btn-icon"></span>
                         </span>
                     </span>
-
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/02.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/02.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/02.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/03.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/04.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/01.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/02.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/03.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/04.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
-                    <div class="tape-swiper__swiper-slide tape-swiper__swiper-slide--blured swiper-slide">
-                        <img src="media/images/dinos/01.png" alt="img" width="244" height="243"
-                             class="tape-swiper__slide-img">
-                    </div>
                 </div>
             </div>
         </div>
@@ -2192,7 +2142,7 @@
             <div class="container">
                 <div class="b-info-card__title heading">@lang('Project leader')</div>
                 <div class="b-info-card__inner">
-                    <img src="media/images/kirill.png" alt="img" width="392" height="348" class="b-info-card__img">
+                    <img src="#" data-src="media/images/kirill.png" alt="img" width="392" height="348" class="b-info-card__img">
                     <div class="b-info-card__content">
                         <div class="btn btn--flat b-info-card__supheading">
                             <span class="btn-text">@lang('Project leader')</span>
@@ -2249,13 +2199,13 @@
                     </div>
                     <div class="b-info-card__links">
                         <a href="https://t.me/tonometerbot" target="_blank" class="circle-tag">
-                            <img src="media/images/rg1.png" alt="img" width="48" height="48" class="circle-tag__img">
+                            <img src="#" data-src="media/images/rg1.png" alt="img" width="48" height="48" class="circle-tag__img">
                         </a>
                         <a href="https://t.me/givemetonru" target="_blank" class="circle-tag">
-                            <img src="media/images/fri2.png" alt="img" width="48" height="48" class="circle-tag__img">
+                            <img src="#" data-src="media/images/fri2.png" alt="img" width="48" height="48" class="circle-tag__img">
                         </a>
                         <a href="https://t.me/c/1664352641/5" target="_blank" class="circle-tag">
-                            <img src="media/images/ton.png" alt="img" width="48" height="48" class="circle-tag__img">
+                            <img src="#" data-src="media/images/ton.png" alt="img" width="48" height="48" class="circle-tag__img">
                         </a>
                     </div>
                 </div>
