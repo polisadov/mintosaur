@@ -89,34 +89,34 @@
                 <div class="variations__var-nav var-nav" data-aos="fade-up">
                     <div class="var-nav__inner var-nav__inner--first">
                         <div class="var-nav__head">
-                            <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (7 444)
+                            <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (4 643)
                             </button>
-                            <button class="var-nav__btn btn-text">@lang("Tyrannosaurs") (149)</button>
-                            <button class="var-nav__btn btn-text">@lang("Pterodactyls") (400)</button>
+                            <button class="var-nav__btn btn-text">@lang("Tyrannosaurs") (100)</button>
+                            <button class="var-nav__btn btn-text">@lang("Pterodactyls") (250)</button>
                         </div>
                         <div class="var-nav__body">
                             <div class="var-nav__swiper swiper">
                                 <div class="var-nav__swiper-wrapper swiper-wrapper">
                                     <div class="var-nav__swiper-slide swiper-slide">
                                         <button class="category-btn category-btn--active var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("On vacation") (3 647)</span>
+                                            <span class="category-btn__text">@lang("On vacation") (2 272)</span>
                                         </button>
                                         <button class="category-btn var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("In service") (3 647)</span>
+                                            <span class="category-btn__text">@lang("In service") (2 272)</span>
                                         </button>
                                         <button class="category-btn var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("Mixed") (150)</span>
+                                            <span class="category-btn__text">@lang("Mixed") (99)</span>
                                         </button>
                                     </div>
                                     <div class="var-nav__swiper-slide swiper-slide">
                                         <button class="category-btn category-btn--active var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("In service") (62)</span>
+                                            <span class="category-btn__text">@lang("In service") (41)</span>
                                         </button>
                                         <button class="category-btn var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("Mixed") (62)</span>
+                                            <span class="category-btn__text">@lang("Mixed") (41)</span>
                                         </button>
                                         <button class="category-btn var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("Elite 3D") (25)</span>
+                                            <span class="category-btn__text">@lang("Elite 3D") (18)</span>
                                         </button>
                                     </div>
                                     <div
@@ -154,22 +154,22 @@
                                                                  class="sm-info-card__img">
                                                             <div class="sm-info-card__small-tags">
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -192,13 +192,13 @@
                                                                  height="64" class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                <div class="small-tag sm-info-card__small-tag">40%
+                                                                <div class="small-tag sm-info-card__small-tag">36%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">30%
+                                                                <div class="small-tag sm-info-card__small-tag">29%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">20%
+                                                                <div class="small-tag sm-info-card__small-tag">22%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">10%
+                                                                <div class="small-tag sm-info-card__small-tag">13%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -217,7 +217,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">16%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
@@ -227,7 +227,7 @@
                                                                 </p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">26%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open++.png"
                                                                      alt="icon" width="54" height="54"
@@ -236,7 +236,7 @@
                                                                     @lang('unfolded')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">70%</div>
+                                                                <div class="t-info__small-tag small-tag">58%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open.png"
                                                                      alt="icon" width="54" height="54"
@@ -258,7 +258,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">69%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -267,7 +267,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">8%</div>
+                                                                <div class="t-info__small-tag small-tag">13%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -277,7 +277,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">8%</div>
+                                                                <div class="t-info__small-tag small-tag">12%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--red.png"
                                                                      alt="icon" width="54" height="54"
@@ -287,7 +287,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">4%</div>
+                                                                <div class="t-info__small-tag small-tag">6%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--blue.png"
                                                                      alt="icon" width="54" height="54"
@@ -316,7 +316,7 @@
                                                             class="sm-info-card__content sm-info-card__content--items-margin-bottom-50">
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">60%</div>
+                                                                <div class="t-info__small-tag small-tag">47%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -325,7 +325,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">14%</div>
                                                                 <img src="#" data-src="media/images/icons/camera.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -335,7 +335,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">15%</div>
+                                                                <div class="t-info__small-tag small-tag">17%</div>
                                                                 <img src="#" data-src="media/images/icons/beer.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -344,7 +344,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">14%</div>
                                                                 <img src="#" data-src="media/images/icons/coctail.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -355,7 +355,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">8%</div>
                                                                 <img src="#" data-src="media/images/icons/baltika-9.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -376,7 +376,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">45%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--blue.png"
                                                                      alt="icon" width="54" height="54"
@@ -394,7 +394,7 @@
                                                                     @lang('green')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">25%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--pink.png"
                                                                      alt="icon" width="54" height="54"
@@ -417,7 +417,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">74%</div>
                                                                 <img src="#" data-src="media/images/icons/flowers.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -426,7 +426,7 @@
                                                                     @lang('flowers')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">26%</div>
                                                                 <img src="#" data-src="media/images/icons/leafs.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -448,7 +448,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">75%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/eye--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -457,7 +457,7 @@
                                                                     @lang('yellow')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">25%</div>
                                                                 <img src="#" data-src="media/images/icons/eye--red.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -478,7 +478,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">60%</div>
+                                                                <div class="t-info__small-tag small-tag">57%</div>
                                                                 <img src="#" data-src="media/images/icons/fruits.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -487,7 +487,7 @@
                                                                     @lang('fruits')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">40%</div>
+                                                                <div class="t-info__small-tag small-tag">43%</div>
                                                                 <img src="#" data-src="media/images/icons/safari.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -519,22 +519,22 @@
                                                                  class="sm-info-card__img">
                                                             <div class="sm-info-card__small-tags">
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -557,13 +557,13 @@
                                                                  height="64" class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                <div class="small-tag sm-info-card__small-tag">40%
+                                                                <div class="small-tag sm-info-card__small-tag">36%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">30%
+                                                                <div class="small-tag sm-info-card__small-tag">29%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">20%
+                                                                <div class="small-tag sm-info-card__small-tag">22%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">10%
+                                                                <div class="small-tag sm-info-card__small-tag">13%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -579,18 +579,18 @@
                                                             <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                         </div>
                                                         <div class="sm-info-card__content">
-
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">16%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
                                                                 <p class="semi-15-text t-info__semi-15-text">
-                                                                    @lang('closed')</p>
+                                                                    @lang('closed')
+                                                                </p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">26%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open++.png"
                                                                      alt="icon" width="54" height="54"
@@ -599,7 +599,7 @@
                                                                     @lang('unfolded')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">70%</div>
+                                                                <div class="t-info__small-tag small-tag">58%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open.png"
                                                                      alt="icon" width="54" height="54"
@@ -623,7 +623,7 @@
 
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">69%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -632,7 +632,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">8%</div>
+                                                                <div class="t-info__small-tag small-tag">13%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -642,7 +642,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">8%</div>
+                                                                <div class="t-info__small-tag small-tag">12%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--red.png"
                                                                      alt="icon" width="54" height="54"
@@ -652,7 +652,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">4%</div>
+                                                                <div class="t-info__small-tag small-tag">6%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--blue.png"
                                                                      alt="icon" width="54" height="54"
@@ -660,7 +660,6 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">
                                                                     @lang('blue')</p>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -682,7 +681,7 @@
                                                             class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">40%</div>
+                                                                <div class="t-info__small-tag small-tag">27%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -691,7 +690,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">19%</div>
                                                                 <img src="#" data-src="media/images/icons/gun.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -701,7 +700,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">7%</div>
                                                                 <img src="#" data-src="media/images/icons/stick.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -712,7 +711,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">12%</div>
                                                                 <img src="#" data-src="media/images/icons/racija.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -723,7 +722,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">13%</div>
                                                                 <img src="#" data-src="media/images/icons/dubinka.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -734,7 +733,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">14%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/naruchniki.png"
                                                                      alt="icon" width="54" height="54"
@@ -745,7 +744,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">8%</div>
                                                                 <img src="#" data-src="media/images/icons/lupa.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -768,7 +767,7 @@
                                                         <div
                                                             class="sm-info-card__content sm-info-card__content--items-margin-bottom-50">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">60%</div>
+                                                                <div class="t-info__small-tag small-tag">44%</div>
                                                                 <img src="#" data-src="media/images/icons/rank1.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -777,7 +776,7 @@
                                                                     @lang('Lieutenant')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">24%</div>
                                                                 <img src="#" data-src="media/images/icons/rank2.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -786,7 +785,7 @@
                                                                     @lang('Captain')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">14%</div>
                                                                 <img src="#" data-src="media/images/icons/rank3.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -795,7 +794,7 @@
                                                                     @lang('Major')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">6%</div>
+                                                                <div class="t-info__small-tag small-tag">10%</div>
                                                                 <img src="#" data-src="media/images/icons/rank4.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -805,7 +804,7 @@
                                                             </div>
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">4%</div>
+                                                                <div class="t-info__small-tag small-tag">7%</div>
                                                                 <img src="#" data-src="media/images/icons/rank5.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -860,7 +859,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">75%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/eye--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -869,7 +868,7 @@
                                                                     @lang('yellow')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">25%</div>
                                                                 <img src="#" data-src="media/images/icons/eye--red.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -900,22 +899,22 @@
                                                                  class="sm-info-card__img">
                                                             <div class="sm-info-card__small-tags">
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -938,13 +937,13 @@
                                                                  height="64" class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                <div class="small-tag sm-info-card__small-tag">40%
+                                                                <div class="small-tag sm-info-card__small-tag">36%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">30%
+                                                                <div class="small-tag sm-info-card__small-tag">29%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">20%
+                                                                <div class="small-tag sm-info-card__small-tag">22%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">10%
+                                                                <div class="small-tag sm-info-card__small-tag">13%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -960,18 +959,18 @@
                                                             <p class="title title--s sm-info-card__title">@lang('MOUTH')</p>
                                                         </div>
                                                         <div class="sm-info-card__content">
-
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">16%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
                                                                 <p class="semi-15-text t-info__semi-15-text">
-                                                                    @lang('closed')</p>
+                                                                    @lang('closed')
+                                                                </p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">26%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open++.png"
                                                                      alt="icon" width="54" height="54"
@@ -980,7 +979,7 @@
                                                                     @lang('unfolded')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">70%</div>
+                                                                <div class="t-info__small-tag small-tag">58%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open.png"
                                                                      alt="icon" width="54" height="54"
@@ -1002,7 +1001,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">69%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1011,7 +1010,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">8%</div>
+                                                                <div class="t-info__small-tag small-tag">13%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -1021,7 +1020,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">8%</div>
+                                                                <div class="t-info__small-tag small-tag">12%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--red.png"
                                                                      alt="icon" width="54" height="54"
@@ -1031,7 +1030,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">4%</div>
+                                                                <div class="t-info__small-tag small-tag">6%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--blue.png"
                                                                      alt="icon" width="54" height="54"
@@ -1070,7 +1069,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info ">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">15%</div>
                                                                 <img src="#" data-src="media/images/icons/gun.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1080,7 +1079,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">6%</div>
                                                                 <img src="#" data-src="media/images/icons/coctail.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1090,7 +1089,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info ">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">1%</div>
                                                                 <img src="#" data-src="media/images/icons/stick.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1100,7 +1099,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">13%</div>
                                                                 <img src="#" data-src="media/images/icons/camera.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1110,7 +1109,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info ">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">12%</div>
                                                                 <img src="#" data-src="media/images/icons/beer.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1119,7 +1118,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info ">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">3%</div>
                                                                 <img src="#" data-src="media/images/icons/racija.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1130,7 +1129,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">4%</div>
                                                                 <img src="#" data-src="media/images/icons/dubinka.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1141,7 +1140,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">8%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/naruchniki.png"
                                                                      alt="icon" width="54" height="54"
@@ -1163,7 +1162,7 @@
 
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">5%</div>
+                                                                <div class="t-info__small-tag small-tag">3%</div>
                                                                 <img src="#" data-src="media/images/icons/baltika-9.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -1183,7 +1182,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">75%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/eye--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -1192,7 +1191,7 @@
                                                                     @lang('yellow')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">25%</div>
                                                                 <img src="#" data-src="media/images/icons/eye--red.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -1218,7 +1217,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">45%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--blue.png"
                                                                      alt="icon" width="54" height="54"
@@ -1236,7 +1235,7 @@
                                                                     @lang('green')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">25%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--pink.png"
                                                                      alt="icon" width="54" height="54"
@@ -1266,8 +1265,9 @@
                                                                     @lang('cap')
                                                                 </p>
                                                             </div>
+
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">74%</div>
                                                                 <img src="#" data-src="media/images/icons/flowers.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1276,7 +1276,7 @@
                                                                     @lang('flowers')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">26%</div>
                                                                 <img src="#" data-src="media/images/icons/leafs.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1284,6 +1284,7 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">
                                                                     @lang('leaves')</p>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1316,22 +1317,22 @@
                                                                  class="sm-info-card__img">
                                                             <div class="sm-info-card__small-tags">
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1356,12 +1357,12 @@
                                                                  class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                <div class="small-tag sm-info-card__small-tag">5%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">7%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">3%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">3%</div>
                                                                 <div class="small-tag sm-info-card__small-tag">10%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">10%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">17%</div>
                                                                 <div class="small-tag sm-info-card__small-tag">34%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">34%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">33%</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1379,7 +1380,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">64%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open.png"
                                                                      alt="icon" width="54" height="54"
@@ -1388,7 +1389,7 @@
                                                                     @lang('open')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">30%</div>
+                                                                <div class="t-info__small-tag small-tag">27%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
@@ -1397,7 +1398,7 @@
                                                                     @lang('closed')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">9%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--laser.png"
                                                                      alt="icon" width="54" height="54"
@@ -1421,7 +1422,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">70%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/eye--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -1430,7 +1431,7 @@
                                                                     @lang('yellow')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">30%</div>
                                                                 <img src="#" data-src="media/images/icons/eye--red.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -1459,7 +1460,7 @@
                                                         <div
                                                             class="sm-info-card__content sm-info-card__content--md-margins">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">78,1%</div>
+                                                                <div class="t-info__small-tag small-tag">80,5%</div>
                                                                 <img src="#" data-src="media/images/icons/general.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1468,7 +1469,7 @@
                                                                     @lang('General')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">21,9%</div>
+                                                                <div class="t-info__small-tag small-tag">19,5%</div>
                                                                 <img src="#" data-src="media/images/icons/marshall.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -1494,7 +1495,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">60%</div>
+                                                                <div class="t-info__small-tag small-tag">57%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1502,7 +1503,7 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">@lang('None')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">30%</div>
+                                                                <div class="t-info__small-tag small-tag">26%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/golden_macarov.png"
                                                                      alt="icon"
@@ -1512,7 +1513,7 @@
                                                                     @lang('Golden Makarov gun')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">17%</div>
                                                                 <img src="#" data-src="media/images/icons/vziatka.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1545,22 +1546,22 @@
                                                                  class="sm-info-card__img">
                                                             <div class="sm-info-card__small-tags">
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1585,12 +1586,12 @@
                                                                  class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                <div class="small-tag sm-info-card__small-tag">5%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">7%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">3%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">3%</div>
                                                                 <div class="small-tag sm-info-card__small-tag">10%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">10%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">17%</div>
                                                                 <div class="small-tag sm-info-card__small-tag">34%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">34%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">33%</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1608,7 +1609,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">64%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open.png"
                                                                      alt="icon" width="54" height="54"
@@ -1617,7 +1618,7 @@
                                                                     @lang('open')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">30%</div>
+                                                                <div class="t-info__small-tag small-tag">27%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
@@ -1626,7 +1627,7 @@
                                                                     @lang('closed')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">9%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--laser.png"
                                                                      alt="icon" width="54" height="54"
@@ -1650,7 +1651,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">70%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/eye--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -1659,7 +1660,7 @@
                                                                     @lang('yellow')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">30%</div>
                                                                 <img src="#" data-src="media/images/icons/eye--red.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -1689,7 +1690,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">85%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1697,7 +1698,7 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">15%</div>
                                                                 <img src="#" data-src="media/images/icons/martini.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1722,7 +1723,7 @@
                                                         <div
                                                             class="sm-info-card__content sm-info-card__content--md-margins">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">78,1%</div>
+                                                                <div class="t-info__small-tag small-tag">80,5%</div>
                                                                 <img src="#" data-src="media/images/icons/general.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1731,13 +1732,14 @@
                                                                     @lang('General')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">21,9%</div>
+                                                                <div class="t-info__small-tag small-tag">19,5%</div>
                                                                 <img src="#" data-src="media/images/icons/marshall.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
                                                                 <p class="semi-15-text t-info__semi-15-text">
                                                                     @lang('Marshal')</p>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1755,7 +1757,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">39%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--blue.png"
                                                                      alt="icon" width="54" height="54"
@@ -1764,7 +1766,7 @@
                                                                     @lang('cyan')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">30%</div>
+                                                                <div class="t-info__small-tag small-tag">41%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--green.png"
                                                                      alt="icon" width="54" height="54"
@@ -1797,7 +1799,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">93%</div>
                                                                 <img src="#" data-src="media/images/icons/flowers.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1806,7 +1808,7 @@
                                                                     @lang('flowers')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">7%</div>
                                                                 <img src="#" data-src="media/images/icons/leafs.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1836,7 +1838,7 @@
                                                         <div
                                                             class="sm-info-card__content sm-info-card__content--md-margins sm-info-card__content--items-margin-bottom-50">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">53%</div>
                                                                 <img src="#" data-src="media/images/icons/marshall.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -1845,7 +1847,7 @@
                                                             </div>
                                                             <div
                                                                 class="t-info sm-info-card__t-info sm-info-card__t-info--mb0onmob">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">47%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/skirt--base.png"
                                                                      alt="icon" width="54" height="54"
@@ -1872,8 +1874,8 @@
                                                                  class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--less-than-6-items">
-                                                                <div class="small-tag sm-info-card__small-tag">50%</div>
-                                                                <div class="small-tag sm-info-card__small-tag">50%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">53%</div>
+                                                                <div class="small-tag sm-info-card__small-tag">47%</div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1889,7 +1891,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">37%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--open.png"
                                                                      alt="icon" width="54" height="54"
@@ -1898,7 +1900,7 @@
                                                                     @lang('open')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">30%</div>
+                                                                <div class="t-info__small-tag small-tag">42%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
@@ -1907,7 +1909,7 @@
                                                                     @lang('closed')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">21%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--laser.png"
                                                                      alt="icon" width="54" height="54"
@@ -1932,7 +1934,7 @@
                                                         <div class="sm-info-card__content">
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">50%</div>
+                                                                <div class="t-info__small-tag small-tag">52%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1941,7 +1943,7 @@
                                                             </div>
 
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">30%</div>
+                                                                <div class="t-info__small-tag small-tag">32%</div>
                                                                 <img src="#" data-src="media/images/icons/gun.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1950,7 +1952,7 @@
                                                                     @lang('Makarov pistol')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">16%</div>
                                                                 <img src="#" data-src="media/images/icons/martini.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -1989,22 +1991,22 @@
                                                                  class="sm-info-card__img">
                                                             <div class="sm-info-card__small-tags">
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    16.5%
                                                                 </div>
                                                                 <div class="small-tag sm-info-card__small-tag">
-                                                                    16,6%
+                                                                    17.0%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2026,11 +2028,11 @@
                                                                  class="sm-info-card__img">
                                                             <div
                                                                 class="sm-info-card__small-tags sm-info-card__small-tags--3-items">
-                                                                <div class="small-tag sm-info-card__small-tag">40%
+                                                                <div class="small-tag sm-info-card__small-tag">39%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">40%
+                                                                <div class="small-tag sm-info-card__small-tag">39%
                                                                 </div>
-                                                                <div class="small-tag sm-info-card__small-tag">20%
+                                                                <div class="small-tag sm-info-card__small-tag">22%
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -2049,7 +2051,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">33%</div>
                                                                 <img src="#" data-src="media/images/icons/cigarette.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -2057,7 +2059,7 @@
                                                                     @lang('cigarette')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">67%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/mouth--close.png"
                                                                      alt="icon" width="54" height="54"
@@ -2081,7 +2083,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">70%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/eye--yellow.png"
                                                                      alt="icon" width="54" height="54"
@@ -2090,7 +2092,7 @@
                                                                     @lang('yellow')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">30%</div>
                                                                 <img src="#" data-src="media/images/icons/eye--red.png"
                                                                      alt="icon" width="54" height="54"
                                                                      class="t-info__icon">
@@ -2113,7 +2115,7 @@
                                                         </div>
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">68%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -2121,7 +2123,7 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">32%</div>
                                                                 <img src="#"
                                                                      data-src="media/images/icons/laser--red.png"
                                                                      alt="icon" width="54" height="54"
@@ -2150,7 +2152,7 @@
 
                                                         <div class="sm-info-card__content">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">70%</div>
+                                                                <div class="t-info__small-tag small-tag">52%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -2158,7 +2160,7 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">28%</div>
                                                                 <img src="#" data-src="media/images/icons/ussr.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -2167,7 +2169,7 @@
                                                                     @lang('credentials')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">10%</div>
+                                                                <div class="t-info__small-tag small-tag">20%</div>
                                                                 <img src="#" data-src="media/images/icons/knife.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -2190,7 +2192,7 @@
                                                         <div
                                                             class="sm-info-card__content sm-info-card__content--flex-start">
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">80%</div>
+                                                                <div class="t-info__small-tag small-tag">70%</div>
                                                                 <img src="#" data-src="media/images/icons/no.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
@@ -2198,7 +2200,7 @@
                                                                 <p class="semi-15-text t-info__semi-15-text">@lang('none')</p>
                                                             </div>
                                                             <div class="t-info sm-info-card__t-info">
-                                                                <div class="t-info__small-tag small-tag">20%</div>
+                                                                <div class="t-info__small-tag small-tag">30%</div>
                                                                 <img src="#" data-src="media/images/icons/mauser.png"
                                                                      alt="icon"
                                                                      width="54" height="54"
