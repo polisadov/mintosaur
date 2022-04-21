@@ -89,7 +89,7 @@
                 <div class="variations__var-nav var-nav" data-aos="fade-up">
                     <div class="var-nav__inner var-nav__inner--first">
                         <div class="var-nav__head">
-                            <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (4 643)
+                            <button class="var-nav__btn var-nav__btn--active btn-text">@lang("Velociraptors") (4 644)
                             </button>
                             <button class="var-nav__btn btn-text">@lang("Tyrannosaurs") (100)</button>
                             <button class="var-nav__btn btn-text">@lang("Pterodactyls") (250)</button>
@@ -99,7 +99,7 @@
                                 <div class="var-nav__swiper-wrapper swiper-wrapper">
                                     <div class="var-nav__swiper-slide swiper-slide">
                                         <button class="category-btn category-btn--active var-nav__category-btn">
-                                            <span class="category-btn__text">@lang("On vacation") (2 272)</span>
+                                            <span class="category-btn__text">@lang("On vacation") (2 273)</span>
                                         </button>
                                         <button class="category-btn var-nav__category-btn">
                                             <span class="category-btn__text">@lang("In service") (2 272)</span>
@@ -2263,22 +2263,10 @@
         </div>
         <div class="tape-swiper__swiper swiper">
             <div class="tape-swiper__swiper-wrapper tape-swiper__swiper-wrapper--padding swiper-wrapper">
-                <a href="https://tonometerbot.com/@/nemorgenshtern" target="_blank"
-                   class="tape-swiper__swiper-slide swiper-slide">
-                    <img src="#" data-src="media/images/dinos/rapper.png" alt="img" width="244" height="243"
-                         class="tape-swiper__slide-img">
-                    <span class="btn btn--no-hover tape-swiper__swiper-btn">
-                            <span class="tape-swiper__swiper-btn-text">
-                              @lang("Rapper")
-                            </span>
-                            <img data-src="/media/images/icons/swiper-morg.png" alt="img"
-                                 width="32" height="32"
-                                 class="tape-swiper__swiper-btn-icon">
-                        </span>
-                </a>
-                <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="#" data-src="media/images/dinos/civil_entrepreneur.png" alt="img" width="244"
-                             height="243"
+
+                <span class="tape-swiper__swiper-slide swiper-slide first__tape__element">
+                        <img src="#" data-src="media/images/dinos/civil_entrepreneur.png" alt="img" width="270"
+                             height="269"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
@@ -2288,8 +2276,8 @@
                         </span>
                     </span>
                 <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="#" data-src="media/images/dinos/civil_filmmaker.png" alt="img" width="244"
-                             height="243"
+                        <img src="#" data-src="media/images/dinos/civil_filmmaker.png" alt="img" width="270"
+                             height="269"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
@@ -2299,8 +2287,8 @@
                         </span>
                     </span>
                 <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="#" data-src="media/images/dinos/civil_movie_critic.png" alt="img" width="244"
-                             height="243"
+                        <img src="#" data-src="media/images/dinos/civil_movie_critic.png" alt="img" width="270"
+                             height="269"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
@@ -2310,8 +2298,8 @@
                         </span>
                     </span>
                 <span class="tape-swiper__swiper-slide swiper-slide">
-                        <img src="#" data-src="media/images/dinos/civil_programmer.png" alt="img" width="244"
-                             height="243"
+                        <img src="#" data-src="media/images/dinos/civil_programmer.png" alt="img" width="270"
+                             height="269"
                              class="tape-swiper__slide-img tape-swiper__swiper-slide swiper-slide">
                         <span class="btn btn--no-hover tape-swiper__swiper-btn">
                             <span class="tape-swiper__swiper-btn-text">
@@ -2402,4 +2390,20 @@
                 </div>
             </div>
         </div>
+
+        <style>
+            .first__tape__element {
+                margin-left: 60px;
+            }
+            @media (max-width: 1200px) {
+                .first__tape__element {
+                    margin-left: -70px;
+                }
+            }
+            @media (max-width: 760px) {
+                .first__tape__element {
+                    margin-left: initial;
+                }
+            }
+        </style>
 @endsection
