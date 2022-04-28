@@ -86,7 +86,7 @@
                                 </a>
                             @endif
                         </div>
-                        <a href="https://t.me/mintosaurs_bot" class="btn btn--s" target="_blank">
+                        <a href="https://beta.disintar.io/collection/UQAzkaVZCp62HBz8KveKM0n_ju8Z2TTbDKHrEipSEVvXJ8Lc" class="btn btn--s" target="_blank">
                             <span class="btn-text btn-text--s">@lang('Buy')</span>
                         </a>
                     </div>
